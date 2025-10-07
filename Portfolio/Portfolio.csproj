@@ -15,6 +15,12 @@
     <None Include="wwwroot\css\nav.css" />
     <None Include="wwwroot\css\portifolio.css" />
     <None Include="wwwroot\css\sobre.css" />
+    <None Include="wwwroot\Images\12.jpg" />
+    <None Include="wwwroot\Images\34.jpg" />
+    <None Include="wwwroot\Images\67.jpg" />
+    <None Include="wwwroot\Images\bryan.jpeg" />
+    <None Include="wwwroot\Images\currBryan.pdf" />
+    <None Include="wwwroot\Images\image.jpg" />
   </ItemGroup>
 
   <ItemGroup>

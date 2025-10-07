@@ -7,10 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {
       "Portfolio/1.0.0": {
+        "dependencies": {
+          "bootstrap": "5.3.8"
+        },
         "runtime": {
           "Portfolio.dll": {}
         }
-      }
+      },
+      "bootstrap/5.3.8": {}
     }
   },
   "libraries": {
@@ -18,6 +22,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "bootstrap/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Pj2iMXZ0c0PVtgtAaxUM/0ptcu1a5nxdiQSUuPAILgwWI/kiY3Jd8A36ugCNF5v2FYzvGDPVlu1P1ZBdJLb/g==",
+      "path": "bootstrap/5.3.8",
+      "hashPath": "bootstrap.5.3.8.nupkg.sha512"
     }
   }
 }
