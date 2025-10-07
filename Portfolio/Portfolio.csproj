@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\contato.css" />
+    <None Include="wwwroot\css\nav.css" />
+    <None Include="wwwroot\css\portifolio.css" />
+    <None Include="wwwroot\css\sobre.css" />
+  </ItemGroup>
+
+</Project>

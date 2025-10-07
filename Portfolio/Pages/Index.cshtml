@@ -1,3 +1,9 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Bryan Albuquerque";
+}
+
 <!DOCTYPE html>
 <html lang="PT-br">
 
@@ -6,15 +12,15 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="nav.css">
-    <link rel="stylesheet" type="text/css" href="sobre.css">
-    <link rel="stylesheet" type="text/css" href="portifolio.css">
-    <link rel="stylesheet" type="text/css" href="contato.css">
+    <link rel="stylesheet" type="text/css" href="~/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="~/css/sobre.css">
+    <link rel="stylesheet" type="text/css" href="~/css/portifolio.css">
+    <link rel="stylesheet" type="text/css" href="~/css/contato.css">
 
 </head>
 
 <body>
-    
+
     <header>
         <div class="container">
             <nav>
@@ -42,7 +48,7 @@
                     <div class="about-col-1">
                         <img src="bryan.jpeg">
                     </div>
-    
+
                     <div class="about-col-2">
                         <h1 class="sub-tittle">Sobre mim</h1>
                         <p>
@@ -54,22 +60,22 @@
                 </div>
             </div>
         </div>
-    
+
         <div class="typing-effect">
             <span id="text"></span>
         </div>
-        <script src="script.js"></script>
+        <script src="~/js/script.js"></script>
     </section>
 
     <article>
         <div id="portifolio">
             <div class="container">
                 <h1 class="sub-tittle">Minhas criações</h1>
-    
+
                 <div class="work-list">
-                    
+
                     <div class="work">
-                        <img src="img Projetos/67.jpg">
+                        <img src=" ">
                         <div class="layer">
                             <h1>PortalGamerX</h1>
                             <p>
@@ -82,7 +88,7 @@
                             </a>
                         </div>
                     </div>
-    
+
                     <div class="work">
                         <img src="img Projetos/34.jpg">
                         <div class="layer">
@@ -97,21 +103,23 @@
                             </a>
                         </div>
                     </div>
-    
+
                     <div class="work">
                         <img src="img Projetos/12.jpg">
                         <div class="layer">
                             <h1>Online</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, enim nostrum a expedita
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, enim nostrum a expedita
                                 ab in. Sit vel dignissimos quisquam omnis debitis quae consequuntur? Sequi, aperiam nobis
-                                facere quod atque illo.</p>
+                                facere quod atque illo.
+                            </p>
                             <a href="#">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-    
+
                 <a href="https://github.com/BryanAlbuquerque" class="btn"> Veja mais </a>
             </div>
         </div>
@@ -125,25 +133,25 @@
                         <h1 class="sub-title"> Entre em Contato</h1>
                         <p><i class="fa-solid fa-paper-plane"></i> bryanalburquerque2@gmail.com</p>
                         <p><i class="fa-sharp fa-solid fa-phone"></i> +55 (11) 97421-7641</p>
-    
+
                         <a href="currBryan.pdf" download class="button1">Download CV</a>
                     </div>
-    
+
                     <div class="contact-right">
                         <form>
                             <input type="text" name="Name" placeholder="Seu Nome" required />
                             <input type="email" name="email" placeholder="Seu Email" required />
-    
+
                             <textarea name="Massage rows= 6 " placeholder="Sua Mensagem"></textarea>
-    
+
                             <button type="submit" class="button2">Enviar</button>
                         </form>
-    
+
                     </div>
                 </div>
             </div>
         </div>
-    
+
     </footer>
 
 </body>
