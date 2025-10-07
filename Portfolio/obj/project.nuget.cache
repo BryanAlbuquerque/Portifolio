@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QotYOKOKdks=",
+  "dgSpecHash": "6iHAHFLVt/4=",
   "success": true,
   "projectFilePath": "C:\\Users\\bryan\\Documents\\Portifolio\\Portfolio\\Portfolio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bryan\\.nuget\\packages\\bootstrap\\5.3.8\\bootstrap.5.3.8.nupkg.sha512"
+  ],
   "logs": []
 }

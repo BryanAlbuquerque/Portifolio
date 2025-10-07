@@ -17,4 +17,8 @@
     <None Include="wwwroot\css\sobre.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.8" />
+  </ItemGroup>
+
 </Project>
