@@ -2,7 +2,7 @@
 header {
     position: relative;
     height: 100vh;
-    background: url("../Images/image.jpg") no-repeat center center/cover;
+    background: url("../Images/Back.png") no-repeat center center/cover;
     color: #fff;
     overflow: hidden;
 }
@@ -62,7 +62,7 @@ nav {
     position: relative;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: flex-start;
     flex-direction: column;
     text-align: left;
@@ -76,9 +76,12 @@ nav {
 }
 
     .texto-cabecalho p {
-        font-size: 22px;
+        font-size: 25px;
         color: #ddd;
         margin-bottom: 10px;
+        margin-left: 5px;
+        text-align: left;
+
     }
 
     .texto-cabecalho h1 {
@@ -89,6 +92,7 @@ nav {
 
     .texto-cabecalho span {
         color: #e31b59;
+        align-content: center;
     }
 
     .texto-cabecalho img {
@@ -96,14 +100,3 @@ nav {
         margin-top: 40px;
         animation: flutuar 3s ease-in-out infinite;
     }
-
-/* ===== ANIMAÇÃO ===== */
-@keyframes flutuar {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-}

@@ -46,9 +46,8 @@ wwwroot\css\contato.css
 wwwroot\css\projetos.css
 wwwroot\css\sobre.css
 wwwroot\favicon.ico
-wwwroot\Images\12.jpg
-wwwroot\Images\34.jpg
 wwwroot\Images\67.jpg
+wwwroot\Images\Back.png
 wwwroot\Images\bryan.jpeg
 wwwroot\Images\currBryan.pdf
 wwwroot\Images\image.jpg
