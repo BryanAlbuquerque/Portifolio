@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body{

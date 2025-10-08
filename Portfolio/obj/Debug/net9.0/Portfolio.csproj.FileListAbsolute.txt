@@ -23,7 +23,6 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\scopedcss\Pages\S
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\scopedcss\bundle\Portfolio.styles.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\scopedcss\projectbundle\Portfolio.bundle.scp.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\qzkfsgfyu2-yvo5uil7w8.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7xgdsvbe70-ah5tfk1gs1.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\1bftust0bu-86a38fu72i.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\cb4n0kqssc-1ynpuy475e.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\i8a7oyvh0y-61n19gt1b8.gz
@@ -143,3 +142,4 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\xany0x
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\96a3exyeck-ir474ug6zy.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\d56ho7dr7p-5cl6jzyzps.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\gxryvruz9v-a2c1phmbzv.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7xgdsvbe70-8k84el0048.gz
