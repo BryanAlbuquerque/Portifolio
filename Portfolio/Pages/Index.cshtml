@@ -4,80 +4,86 @@
     ViewData["Title"] = "Bryan Albuquerque";
 }
 
-<header>
-    <div class="container">
-        <nav>
-            <ul id="side-menu">
-                <li><a href="#">Início</a></li>
-                <li><a href="#Projetos">Projetos</a></li>
-                <li><a href="#about">Sobre mim</a></li>
-                <li><a href="#contact">Contato</a></li>
+<!-- ======== CABEÇALHO ======== -->
+<header id="inicio">
+    <nav>
+        <div class="container">
+            <ul id="menu-principal">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
-        <div class="header-text">
+    <div class="header-content">
+        <div class="texto-cabecalho">
             <p>Desenvolvedor BackEnd</p>
             <h1>Olá, eu sou <span>Bryan Albuquerque</span></h1>
+            <img src="~/images/dev.png" alt="Dev Illustration" />
         </div>
     </div>
 </header>
 
-<section id="about">
+<!-- ======== SOBRE ======== -->
+<section id="sobre">
     <div class="container">
-        <div class="row">
-            <div class="about-col-1">
+        <div class="linha">
+            <div class="coluna-imagem">
                 <img src="~/images/bryan.jpeg" alt="Bryan" />
             </div>
 
-            <div class="about-col-2">
-                <h1 class="sub-tittle">Sobre mim</h1>
+            <div class="coluna-texto">
+                <h1 class="titulo-secao">Sobre Mim</h1>
                 <p>
-                    Sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Paulista (UNIP) e atualmente estou aprofundando meus conhecimentos em programação com C#, desenvolvimento de aplicações com .NET, ASP.NET Core API RESTful, SQL Server e os princípios da Programação Orientada a Objetos (POO). 
-                    <br>
+                    Sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Paulista (UNIP) e atualmente estou aprofundando meus conhecimentos em programação com C#, desenvolvimento de aplicações com .NET, ASP.NET Core API RESTful, SQL Server e os princípios da Programação Orientada a Objetos (POO).
+                    <br><br>
                     Além da faculdade, estou cursando formações na Udemy voltadas para C# e POO, com o objetivo de ampliar minhas habilidades técnicas e consolidar meus conhecimentos na linguagem.
-                    Tenho uma boa base nos fundamentos da engenharia de software, incluindo os ciclos de vida de desenvolvimento, e busco constantemente aplicar esses conhecimentos na prática por meio de projetos acadêmicos e pessoais. 
-                    <br>
-                    Estou em busca de oportunidades para aplicar minhas habilidades, aprender com profissionais da área e evoluir como desenvolvedor. Sou uma pessoa dedicada, com vontade de aprender e desenvolver novas competências em diferentes tecnologias.
+                    Tenho uma boa base nos fundamentos da engenharia de software, incluindo os ciclos de vida de desenvolvimento, e busco constantemente aplicar esses conhecimentos na prática por meio de projetos acadêmicos e pessoais.
+                    <br><br>
+                    Estou em busca de oportunidades para aplicar minhas habilidades, aprender com profissionais da área e evoluir como desenvolvedor.
                 </p>
             </div>
         </div>
     </div>
 </section>
 
-
-<article id="Projetos">
+<!-- ======== PROJETOS ======== -->
+<section id="projetos">
     <div class="container">
-        <h1 class="sub-tittle">Minhas criações</h1>
-        <div class="work-list">
-            <div class="work">
+        <h1 class="titulo-secao">Meus Projetos</h1>
+        <div class="lista-projetos">
+            <div class="projeto">
                 <img src="~/Images/67.jpg" alt="Portal Gamer" />
-                <div class="layer">
-                    <h1>PortalGamerX</h1>
+                <div class="camada">
+                    <h2>PortalGamerX</h2>
                     <p>Projeto completo de loja de jogos e produtos geeks.</p>
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
-        <a href="https://github.com/BryanAlbuquerque" class="btn">Veja mais</a>
+        <a href="https://github.com/BryanAlbuquerque" class="botao">Veja mais</a>
     </div>
-</article>
+</section>
 
-<footer id="contact">
+<!-- ======== CONTATO ======== -->
+<footer id="contato">
     <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Entre em contato</h1>
+        <div class="linha">
+            <div class="contato-esquerda">
+                <h1 class="titulo-secao">Entre em Contato</h1>
                 <p><i class="fa-solid fa-paper-plane"></i> bryanalburquerque2@gmail.com</p>
                 <p><i class="fa-solid fa-phone"></i> +55 (11) 97421-7641</p>
-                <a href="~/Images/currBryan.pdf" download class="button1">Download CV</a>
+                <a href="~/Images/currBryan.pdf" download class="botao-secundario">Download CV</a>
             </div>
 
-            <div class="contact-right">
+            <div class="contato-direita">
                 <form>
-                    <input type="text" name="Name" placeholder="Seu Nome" required />
-                    <input type="email" name="email" placeholder="Seu Email" required />
-                    <textarea name="Message" rows="6" placeholder="Sua Mensagem"></textarea>
-                    <button type="submit" class="button2">Enviar</button>
+                    <input type="text" name="Nome" placeholder="Seu Nome" required />
+                    <input type="email" name="Email" placeholder="Seu Email" required />
+                    <textarea name="Mensagem" rows="6" placeholder="Sua Mensagem"></textarea>
+                    <button type="submit" class="botao-secundario">Enviar</button>
                 </form>
             </div>
         </div>

@@ -1,89 +1,59 @@
-.sub-title {
-    font-size: 40px;
-    font-weight: 600;
-    color: #fff;
-}
-.contact-left {
-    flex-basis: 35%;
+/* ===== CONTATO ===== */
+footer {
+    background: #0a0a20;
+    padding: 60px 0;
 }
 
-.contact-right {
-    flex-basis: 60%;
+.contato-esquerda,
+.contato-direita {
+    flex-basis: 45%;
 }
 
-.contact-left p {
-    margin-top: 30px;
-}
+    .contato-esquerda p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
 
-.contact-left {
-    color: #e31659;
-    margin-right: 15px;
-    font-size: 25px;
-}
-.button1 {
-    cursor: pointer;
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
+.botao-secundario {
+    display: inline-block;
+    margin-top: 20px;
+    background: transparent;
     border: 1px solid #e31b59;
-    background-color: transparent;
-    transition: background 0.5s;
-    padding: 11px 60px;
+    color: #fff;
+    padding: 10px 30px;
     border-radius: 6px;
+    transition: background 0.3s;
     text-decoration: none;
-    color: antiquewhite;
-    font-size: 18px;
-    transform: translate(-80px);
 }
 
-.button1:hover{
-    background: #e31b59;
-}
-
-.contact-right form {
-    width: 100%;
-}
-
-
-
-/*form*/
-
-
+    .botao-secundario:hover {
+        background: #e31b59;
+    }
 
 form input,
 form textarea {
     width: 100%;
-    border: 0;
-    outline: none;
-    background: #1d1d11;
-    padding: 15px 0;
+    margin-bottom: 15px;
+    background: #1a1a1a;
+    border: none;
+    padding: 12px;
     color: #fff;
-    font-size: 18px;
     border-radius: 6px;
-    transform: translate(130px);
-    position: relative;
-    top: 10px;
+    font-size: 16px;
 }
 
-
-.button2 {
-    cursor: pointer;
-    display: block;
-    margin: 50px auto;
-    width: fit-content;
-    border: 1px solid #e31b59;
-    background-color: transparent;
-    transition: background 0.5s;
-    padding: 11px 60px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 18px;
-    transform: translate(150px);
-    position: relative;
-    top: -10px;
-}
-
-.button2:hover{
+form button {
+    width: 100%;
+    border: none;
     background: #e31b59;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s;
 }
+
+    form button:hover {
+        opacity: 0.85;
+    }

@@ -22,11 +22,7 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\rjsmcshtml.dswa.c
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\scopedcss\bundle\Portfolio.styles.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\scopedcss\projectbundle\Portfolio.bundle.scp.css
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\qzkfsgfyu2-yvo5uil7w8.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\1bftust0bu-86a38fu72i.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\cb4n0kqssc-1ynpuy475e.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\i8a7oyvh0y-61n19gt1b8.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\l9pjj3amyy-fv4zz5f087.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\z9ox1p0g2z-bqjiyaj88i.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7kugpp8rjx-c2jlpeoesf.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\qagkczq6cx-erw9l3u2r3.gz
@@ -142,4 +138,7 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\xany0x
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\96a3exyeck-ir474ug6zy.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\d56ho7dr7p-5cl6jzyzps.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\gxryvruz9v-a2c1phmbzv.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7xgdsvbe70-8k84el0048.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\qzkfsgfyu2-s7w7jhgjdn.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\fzsbs3xfob-q4qw64yznx.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\cb4n0kqssc-36c88s70oq.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7xgdsvbe70-7c9eijopwr.gz

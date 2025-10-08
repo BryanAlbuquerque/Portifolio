@@ -1,61 +1,31 @@
-.header-text {
-    margin-top: 20%;
-    font-size: 30px;
-}
-
-.header-text h1 {
-    font-size: 60px;
-    margin-top: 20px;
-  
-}
-
-.header-text h1 span {
-    color: #e31b59;
-    font-size: 60px;
-
-}
-
-#about {
+/* ===== SOBRE ===== */
+#sobre {
     padding: 80px 0;
-    color: #ababab;
+    background: #0a0a20;
+    color: #ccc;
 }
 
-.row {
+.linha {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.about-col-1 {
+.coluna-imagem {
     flex-basis: 35%;
 }
 
-.about-col-1 img {
-    width: 400px;
-    border-radius: 30px;
-}
+    .coluna-imagem img {
+        width: 100%;
+        border-radius: 15px;
+    }
 
-.about-col-2 {
+.coluna-texto {
     flex-basis: 60%;
 }
 
-
-.typing-effect {
-    font-size: 28px;
-    width: 400px;
-    color: #e31b59;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
-    border-right: 2px solid #141212;
-    position: relative;
-    top: -80px;
-    left: 150px;
-    
+.titulo-secao {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
 }
-
-
-
-
-
-
-  

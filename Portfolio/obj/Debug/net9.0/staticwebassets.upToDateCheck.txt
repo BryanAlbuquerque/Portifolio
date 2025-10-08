@@ -43,7 +43,7 @@ C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\b
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
 wwwroot\css\contato.css
-wwwroot\css\portifolio.css
+wwwroot\css\projetos.css
 wwwroot\css\sobre.css
 wwwroot\favicon.ico
 wwwroot\Images\12.jpg
@@ -52,7 +52,6 @@ wwwroot\Images\67.jpg
 wwwroot\Images\bryan.jpeg
 wwwroot\Images\currBryan.pdf
 wwwroot\Images\image.jpg
-wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -115,10 +114,9 @@ wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\css\nav.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\contato.css
-C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\portifolio.css
+C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\projetos.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\sobre.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\favicon.ico
-C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\js\script.js
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css

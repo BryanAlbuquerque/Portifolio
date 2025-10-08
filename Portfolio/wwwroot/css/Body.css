@@ -1,0 +1,31 @@
+/* ===== SCROLLBAR ===== */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #141212;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a8a3a5;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #fff;
+    background: #000;
+}

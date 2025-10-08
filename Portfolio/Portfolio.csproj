@@ -7,13 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\Body.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\css\contato.css" />
+    <None Include="wwwroot\css\Body.css" />
     <None Include="wwwroot\css\nav.css" />
-    <None Include="wwwroot\css\portifolio.css" />
+    <None Include="wwwroot\css\projetos.css" />
     <None Include="wwwroot\css\sobre.css" />
     <None Include="wwwroot\Images\12.jpg" />
     <None Include="wwwroot\Images\34.jpg" />
