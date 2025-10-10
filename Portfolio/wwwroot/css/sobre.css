@@ -18,10 +18,17 @@
     .coluna-imagem img {
         width: 100%;
         border-radius: 15px;
+        margin-left: 50px
     }
 
 .coluna-texto {
     flex-basis: 60%;
+    text-align:  justify-all;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Segoe UI;
+    font-size: 14px
+
 }
 
 .titulo-secao {

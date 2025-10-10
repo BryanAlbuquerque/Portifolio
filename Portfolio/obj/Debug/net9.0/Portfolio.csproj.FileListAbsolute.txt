@@ -139,6 +139,6 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\96a3ex
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\d56ho7dr7p-5cl6jzyzps.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\gxryvruz9v-a2c1phmbzv.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\qzkfsgfyu2-s7w7jhgjdn.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\fzsbs3xfob-q4qw64yznx.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\cb4n0kqssc-36c88s70oq.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7xgdsvbe70-2qih1hikbz.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\cb4n0kqssc-cd7nulhfau.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\fzsbs3xfob-i0it3no6sv.gz

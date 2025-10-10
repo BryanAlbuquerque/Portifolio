@@ -43,7 +43,7 @@ C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\b
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
 wwwroot\css\contato.css
-wwwroot\css\projetos.css
+wwwroot\css\nav.css
 wwwroot\css\sobre.css
 wwwroot\favicon.ico
 wwwroot\Images\67.jpg
@@ -111,9 +111,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\nav.css
+wwwroot\css\projetos.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\contato.css
-C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\projetos.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\sobre.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\favicon.ico
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -176,3 +175,4 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.sli
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\nav.css
+C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\projetos.css

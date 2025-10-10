@@ -1,7 +1,7 @@
 /* ===== PROJETOS ===== */
 #projetos {
     padding: 60px 0;
-    background: #111;
+    background: #22133B;
 }
 
 .lista-projetos {
@@ -9,6 +9,10 @@
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+}
+
+.titulo-secao{
+    text-align: center;
 }
 
 .projeto {
