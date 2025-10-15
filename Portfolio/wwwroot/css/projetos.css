@@ -1,7 +1,7 @@
 /* ===== PROJETOS ===== */
 #projetos {
     padding: 60px 0;
-    background: #22133B;
+    background: #0a0a20;
 }
 
 .lista-projetos {
@@ -44,7 +44,7 @@
     justify-content: center;
     color: white;
     border-radius: 10px;
-    transition: height 0.5s;
+    transition: height 0.6s;
     text-align: center;
     padding: 0 20px;
 }
