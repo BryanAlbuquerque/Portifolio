@@ -1,1 +1,2 @@
-C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\Images\image.jpg
+C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\favicon.ico
+C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\Videos\PortalGamerX.mp4
