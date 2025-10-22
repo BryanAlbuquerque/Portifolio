@@ -137,8 +137,8 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\xany0x
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\96a3exyeck-ir474ug6zy.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\d56ho7dr7p-5cl6jzyzps.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\gxryvruz9v-a2c1phmbzv.gz
-C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\fzsbs3xfob-2g0lzqkqbm.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\cb4n0kqssc-zv29qlg0ml.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\qzkfsgfyu2-l3tf2wz6ye.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\7xgdsvbe70-buqqz3mvsz.gz
 C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\4vyn2naine-61n19gt1b8.gz
+C:\Users\bryan\Documents\Portifolio\Portfolio\obj\Debug\net9.0\compressed\fzsbs3xfob-u94fpo1ki3.gz

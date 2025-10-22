@@ -44,13 +44,11 @@ C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\b
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
 wwwroot\css\contato.css
 wwwroot\css\nav.css
-wwwroot\css\projetos.css
 wwwroot\css\sobre.css
 wwwroot\Files\currBryan.pdf
 wwwroot\Images\Background.png
 wwwroot\Images\Bryan.jpeg
 wwwroot\Images\favicon.ico
-wwwroot\Images\ShadowLines.JPG
 wwwroot\Images\StorageControl.jpg
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -113,10 +111,12 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\Videos\PortalGamerX.gif
+wwwroot\Videos\ShadowLines.gif
+wwwroot\css\projetos.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\contato.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\nav.css
-C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\projetos.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\sobre.css
+C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\Images\favicon.ico
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -176,4 +176,4 @@ C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.sli
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\Images\favicon.ico
+C:\Users\bryan\Documents\Portifolio\Portfolio\wwwroot\css\projetos.css
