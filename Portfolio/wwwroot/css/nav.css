@@ -2,9 +2,10 @@
 header {
     position: relative;
     height: 100vh;
-    background: url("../Images/Background.png") no-repeat center center/cover;
+    background: url("../Images/Background.png") no-repeat center center / cover;
     color: #fff;
     overflow: hidden;
+    font-family: 'Arial Rounded MT';
 }
 
     header::after {
@@ -25,7 +26,7 @@ nav {
     z-index: 10;
 }
 
-#menu-principal {
+.menu-principal {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -34,7 +35,7 @@ nav {
     padding: 20px 8%;
 }
 
-    #menu-principal li a {
+    .menu-principal li a {
         color: #fff;
         text-decoration: none;
         font-size: 22px;
@@ -42,18 +43,18 @@ nav {
         transition: color 0.3s;
     }
 
-        #menu-principal li a::after {
+        .menu-principal li a::after {
             content: "";
-            width: 0;
-            height: 3px;
-            background: #e31b59;
             position: absolute;
             bottom: -5px;
             left: 0;
+            width: 0;
+            height: 3px;
+            background: #e31b59;
             transition: width 0.3s;
         }
 
-        #menu-principal li a:hover::after {
+        .menu-principal li a:hover::after {
             width: 100%;
         }
 
@@ -62,17 +63,16 @@ nav {
     position: relative;
     height: 100%;
     display: flex;
-    align-items: left;
-    justify-content: flex-start;
     flex-direction: column;
-    text-align: left;
+    justify-content: center;
     padding: 0 10%;
     z-index: 1;
+    text-align: left;
 }
 
 .texto-cabecalho {
     max-width: 800px;
-    margin-top: 200px;
+    margin-bottom: 150px;
 }
 
     .texto-cabecalho p {
@@ -80,19 +80,16 @@ nav {
         color: #ddd;
         margin-bottom: 10px;
         margin-left: 5px;
-        text-align: left;
-
     }
 
     .texto-cabecalho h1 {
         font-size: 60px;
-        margin-top: 10px;
         font-weight: 700;
+        margin-top: 10px;
     }
 
     .texto-cabecalho span {
         color: #e31b59;
-        align-content: center;
     }
 
     .texto-cabecalho img {

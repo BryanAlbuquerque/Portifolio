@@ -1,27 +1,26 @@
-/* Container geral da seção */
+/* ===== SOBRE ===== */
 #sobre {
     background-color: #0b0b20;
     padding: 60px 0;
 }
 
-/* Linha principal que organiza imagem + texto */
+/* Layout principal */
 .linha {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 60px; /* espaçamento entre imagem e texto */
-    flex-wrap: wrap; /* em telas pequenas, texto vai pra baixo */
+    align-items: center;
+    gap: 60px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
-/* Coluna da imagem */
+/* Imagem */
 .coluna-imagem img {
     width: 360px;
-    height: auto;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
     transition: transform 0.3s ease;
 }
 
@@ -29,31 +28,27 @@
         transform: scale(1.03);
     }
 
-/* Coluna do texto */
+/* Texto */
 .coluna-texto {
     flex: 1;
     min-width: 320px;
     color: #f5f5f5;
     font-family: 'Arial Rounded MT';
     text-align: justify;
-    text-justify: inter-word;
     line-height: 1.8;
     font-size: 16px;
     letter-spacing: 0.3px;
 }
 
-/* Título */
 .titulo-secao {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #ffffff;
-    text-align: left;
     border-left: 4px solid #f5f5f5;
     padding-left: 12px;
 }
 
-/* Texto */
 .Texto {
     margin-top: 10px;
 }

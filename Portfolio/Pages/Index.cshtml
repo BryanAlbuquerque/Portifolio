@@ -4,11 +4,12 @@
     ViewData["Title"] = "Bryan Albuquerque";
 }
 
+
 <!-- ======== CABEÇALHO ======== -->
 <header id="inicio">
-    <nav>
+    <nav class="navbar">
         <div class="container">
-            <ul id="menu-principal">
+            <ul class="menu-principal">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -17,36 +18,39 @@
         </div>
     </nav>
 
-    <div class="header-content">
+    <div class="header-content container">
         <div class="texto-cabecalho">
-            <p>Desenvolvedor BackEnd</p>
-            <h1>Olá, eu sou <span>Bryan Albuquerque</span> </h1>
+            <p class="subtitulo">Desenvolvedor BackEnd</p>
+            <h1>Olá, eu sou <span class="destaque">Bryan Albuquerque</span></h1>
         </div>
     </div>
 </header>
+
 
 <!-- ======== SOBRE ======== -->
 <section id="sobre">
     <div class="container">
         <div class="linha">
             <div class="coluna-imagem">
-                <img src="~/images/Bryan.jpeg" alt="Bryan"/>
+                <img src="~/images/Bryan.jpeg" alt="Foto de Bryan Albuquerque" class="foto-perfil" />
             </div>
 
             <div class="coluna-texto">
-                <h1 class="titulo-secao">Sobre Mim</h1>
-                <p class="Texto">
+                <h2 class="titulo-secao">Sobre Mim</h2>
+                <p class="texto">
                     Sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Paulista (UNIP) e atualmente estou aprofundando meus conhecimentos em programação com C#, desenvolvimento de aplicações com .NET, ASP.NET Core API RESTful, SQL Server e os princípios da Programação Orientada a Objetos (POO).
-                    <br><br>
-                    Além da faculdade, estou cursando formações na Udemy voltadas para C# e POO, com o objetivo de ampliar minhas habilidades técnicas e consolidar meus conhecimentos na linguagem.
-                    Tenho uma boa base nos fundamentos da engenharia de software, incluindo os ciclos de vida de desenvolvimento, e busco constantemente aplicar esses conhecimentos na prática por meio de projetos acadêmicos e pessoais.
-                    <br><br>
+                </p>
+                <p class="texto">
+                    Além da faculdade, estou cursando formações na Udemy voltadas para C# e POO, com o objetivo de ampliar minhas habilidades técnicas e consolidar meus conhecimentos na linguagem. Tenho uma boa base nos fundamentos da engenharia de software, incluindo os ciclos de vida de desenvolvimento, e busco constantemente aplicar esses conhecimentos na prática por meio de projetos acadêmicos e pessoais.
+                </p>
+                <p class="texto">
                     Estou em busca de oportunidades para aplicar minhas habilidades, aprender com profissionais da área e evoluir como desenvolvedor.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- ======== PROJETOS ======== -->
 <section id="projetos">
@@ -105,7 +109,10 @@
 
         </div>
 
-        <a href="https://github.com/BryanAlbuquerque" target="_blank" class="botao">Veja mais</a>
+        <div class="botao-container">
+            <a href="https://github.com/BryanAlbuquerque" target="_blank" class="botao">Veja mais</a>
+        </div>
+
     </div>
 </section>
 
@@ -118,7 +125,7 @@
                 <h1 class="titulo-secao">Entre em Contato</h1>
                 <p> bryanalburquerque2@gmail.com</p>
                 <p> +55 (11) 97421-7641</p>
-                <a href="~/Images/currBryan.pdf" download class="botao-secundario">Download CV</a>
+                <a href="~/Files/currBryan.pdf" download class="botao-secundario">Download CV</a>
             </div>
 
             <div class="contato-direita">
