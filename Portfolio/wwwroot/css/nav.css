@@ -70,22 +70,23 @@ nav {
     text-align: left;
 }
 
+
 .texto-cabecalho {
-    max-width: 800px;
+    max-width: 700px;
     margin-bottom: 150px;
 }
 
     .texto-cabecalho p {
         font-size: 25px;
         color: #ddd;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         margin-left: 5px;
     }
 
     .texto-cabecalho h1 {
         font-size: 60px;
         font-weight: 700;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .texto-cabecalho span {
@@ -97,3 +98,5 @@ nav {
         margin-top: 40px;
         animation: flutuar 3s ease-in-out infinite;
     }
+
+    
