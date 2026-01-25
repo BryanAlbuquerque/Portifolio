@@ -1,12 +1,13 @@
 /* ===== SOBRE ===== */
 #sobre {
-    background-color: #0b0b20;
+    background: #0b0b20;
     padding: 60px 0;
 }
 
+
 /* Layout principal */
 .linha {
-    display: flex;
+    display: flex;  
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -51,4 +52,15 @@
 
 .Texto {
     margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .linha {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .coluna-imagem img {
+        width: 280px;
+    }
 }

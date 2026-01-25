@@ -26,37 +26,69 @@ nav {
     z-index: 10;
 }
 
-.menu-principal {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 40px;
-    padding: 20px 8%;
+/* ===== MENU DESKTOP ===== */
+@media (min-width: 992px) {
+
+    .menu-principal {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+        padding: 20px 8%;
+    }
 }
 
-    .menu-principal li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 20px;
-        position: relative;
-        transition: color 0.3s;
+/* LINKS DO MENU */
+.menu-principal li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+    .menu-principal li a::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background: #e31b59;
+        transition: width 0.3s;
     }
 
-        .menu-principal li a::after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 3px;
-            background: #e31b59;
-            transition: width 0.3s;
-        }
+    .menu-principal li a:hover::after {
+        width: 100%;
+    }
 
-        .menu-principal li a:hover::after {
-            width: 100%;
+/* ===== BOTÃO HAMBURGER ===== */
+.navbar-toggler {
+    font-size: 28px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+/* ===== MENU MOBILE ===== */
+@media (max-width: 991px) {
+
+    .menu-principal {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 30px 0;
+        background: rgba(0, 0, 0, 0.95);
+        text-align: center;
+    }
+
+        .menu-principal li a {
+            font-size: 22px;
         }
+}
 
 /* ===== CONTEÚDO DO CABEÇALHO ===== */
 .header-content {
@@ -69,7 +101,6 @@ nav {
     z-index: 1;
     text-align: left;
 }
-
 
 .texto-cabecalho {
     max-width: 700px;
@@ -99,4 +130,33 @@ nav {
         animation: flutuar 3s ease-in-out infinite;
     }
 
-    
+/* ===== HEADER MOBILE ===== */
+@media (max-width: 768px) {
+
+    .header-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 6%;
+    }
+
+    .texto-cabecalho {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+
+        .texto-cabecalho h1 {
+            font-size: 36px;
+        }
+
+        .texto-cabecalho p {
+            font-size: 16px;
+        }
+
+    /* ESCONDE SOMENTE IMAGEM DECORATIVA */
+    .header-imagem,
+    .ilustracao-header,
+    .imagem-header {
+        display: none;
+    }
+}
