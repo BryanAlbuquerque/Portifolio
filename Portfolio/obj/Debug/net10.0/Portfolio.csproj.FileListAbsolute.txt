@@ -142,4 +142,5 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\refint\Portfolio.dll
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.pdb
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.genruntimeconfig.cache
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\ref\Portfolio.dll
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-gm442etrc0-gm442etrc0.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-zzm6xczghf-zzm6xczghf.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\1y615xpfcw-{0}-mgmgyxikyl-mgmgyxikyl.gz
