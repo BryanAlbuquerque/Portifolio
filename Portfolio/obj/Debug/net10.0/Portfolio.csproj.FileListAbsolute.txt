@@ -139,8 +139,8 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\refint\Portfolio.dll
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.pdb
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.genruntimeconfig.cache
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\ref\Portfolio.dll
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-uidpgt3eww-uidpgt3eww.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\w775sgomuo-{0}-k3axxlteo8-k3axxlteo8.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\1y615xpfcw-{0}-iv3pr00cm9-iv3pr00cm9.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\ywpq0hz56v-{0}-q9936bv5nq-q9936bv5nq.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-58u03lubba-58u03lubba.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-mh9sb7q734-mh9sb7q734.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-qsk1ag6lqs-qsk1ag6lqs.gz
