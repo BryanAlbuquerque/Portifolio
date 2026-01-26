@@ -188,12 +188,31 @@
             </div>
 
             <div class="contato-direita">
-                <form>
-                    <input type="text" name="Nome" placeholder="Seu Nome e assunto" required />
-                    <input type="email" name="Email" placeholder="Seu Email" required />
-                    <textarea name="Mensagem" rows="6" placeholder="Sua Mensagem"></textarea>
-                    <button type="submit" class="botao-secundario">Enviar</button>
+                <form method="post" asp-page-handler="EnviarContato">
+                    <input type="text"
+                           name="NomeAssunto"
+                           placeholder="Seu Nome e Assunto"
+                           required />
+
+                    <textarea name="Mensagem"
+                              rows="6"
+                              placeholder="Sua Mensagem"
+                              required></textarea>
+
+                    <button type="submit" class="botao-secundario">
+                        Enviar
+                    </button>
                 </form>
+
+                @if (TempData["Sucesso"] != null)
+                {
+                    <p style="color: green;">@TempData["Sucesso"]</p>
+                }
+
+                @if (TempData["Erro"] != null)
+                {
+                    <p style="color: red;">@TempData["Erro"]</p>
+                }
             </div>
         </div>
     </div>

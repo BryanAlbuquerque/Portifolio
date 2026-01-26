@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\Portifolio\\PortifolioAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 275,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PortifolioAPI\\appsettings.json",
+              "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\appsettings.json",
+              "RelativeToolTip": "PortifolioAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T20:33:39.202Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "PortifolioAPI\\SmtpSettings.cs",
+              "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\SmtpSettings.cs",
+              "RelativeToolTip": "PortifolioAPI\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:33:21.195Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PortifolioAPI\\Program.cs",
+              "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Program.cs",
+              "RelativeToolTip": "PortifolioAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:32:10.586Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Models\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "PortifolioAPI\\Models\\EmailRequest.cs",
+              "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Models\\EmailRequest.cs",
+              "RelativeToolTip": "PortifolioAPI\\Models\\EmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:35:01.126Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "PortifolioAPI\\Controllers\\EmailController.cs",
+              "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "PortifolioAPI\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T21:46:42.128Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "PortifolioAPI\\Services\\EmailService.cs",
+              "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "PortifolioAPI\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:34:35.054Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

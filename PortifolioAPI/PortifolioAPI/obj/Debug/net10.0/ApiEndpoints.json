@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "EmailController",
+    "Method": "Enviar",
+    "RelativePath": "api/email/enviar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
