@@ -35,7 +35,7 @@ namespace Portfolio.Pages
             var client = _httpClientFactory.CreateClient();
 
             var response = await client.PostAsJsonAsync(
-                "https://localhost:5001/api/email/enviar", // URL DA SUA API
+                "http://localhost:5113/api/email/enviar", 
                 new
                 {
                     nomeAssunto = NomeAssunto,

@@ -1,10 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
+// Serviços
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
+// Pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
@@ -12,6 +14,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.MapRazorPages();
