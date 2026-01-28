@@ -4,21 +4,21 @@ footer {
     padding: 60px 0;
 }
 
-.contato-esquerda,
+.contato-esquerda,s
 .contato-direita {
     flex-basis: 45%;
 }
 
     .contato-esquerda h1 {
         font-size: 36px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         color: #fff;
         border-left: 4px solid #e31b59;
-        padding-left: 12px;
+        padding-left: -10px;
         text-align: left;
     }
     .contato-esquerda p {
-        margin: 10px 0;
+        margin: 20px 0;
         font-size: 18px;
         font-family: 'Arial Rounded MT';
     }
@@ -37,14 +37,14 @@ footer {
 }
 
     .botao-secundario:hover {
-        background: #e31b59;
+        background: linear-gradient(rgba(0, 0, 0.7), #000dff);
     }
 
 form input,
 form textarea {
     width: 100%;
     margin-bottom: 15px;
-    background: #1a1a1a;
+    background: #000;
     border: none;
     padding: 12px;
     color: #fff;

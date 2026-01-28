@@ -66,6 +66,8 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\7usyly0psc-{0}-5sv
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\3o3eku47pf-{0}-ir474ug6zy-ir474ug6zy.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\gh1ttpvux4-{0}-5cl6jzyzps-5cl6jzyzps.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\s2itby4894-{0}-a2c1phmbzv-a2c1phmbzv.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\1y615xpfcw-{0}-iv3pr00cm9-iv3pr00cm9.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\ywpq0hz56v-{0}-q9936bv5nq-q9936bv5nq.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\yw3mh7ubqs-{0}-61n19gt1b8-61n19gt1b8.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\fkmehnfzni-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\6si91vzy89-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -139,8 +141,6 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\refint\Portfolio.dll
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.pdb
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.genruntimeconfig.cache
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\ref\Portfolio.dll
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\w775sgomuo-{0}-k3axxlteo8-k3axxlteo8.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\1y615xpfcw-{0}-iv3pr00cm9-iv3pr00cm9.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\ywpq0hz56v-{0}-q9936bv5nq-q9936bv5nq.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-mh9sb7q734-mh9sb7q734.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-qsk1ag6lqs-qsk1ag6lqs.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-cymh6pu6d5-cymh6pu6d5.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-cr448mnnl3-cr448mnnl3.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\w775sgomuo-{0}-fw05z08suv-fw05z08suv.gz
