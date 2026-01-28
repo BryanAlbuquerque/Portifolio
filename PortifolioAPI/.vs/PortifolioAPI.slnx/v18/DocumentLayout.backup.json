@@ -3,15 +3,16 @@
   "WorkspaceRootPath": "D:\\Projetos\\Portifolio\\PortifolioAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bryan\\AppData\\Roaming\\Microsoft\\UserSecrets\\038b2b19-442e-441e-99ba-414fa5a42d49\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,12 +23,11 @@
       "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\models\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bryan\\AppData\\Roaming\\Microsoft\\UserSecrets\\038b2b19-442e-441e-99ba-414fa5a42d49\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|d:\\projetos\\portifolio\\portifolioapi\\portifolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F86C76DC-2D57-A8AB-3CAB-AC4A772CA940}|PortifolioAPI\\PortifolioAPI.csproj|solutionrelative:portifolioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,17 +37,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 275,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\appsettings.json",
               "RelativeDocumentMoniker": "PortifolioAPI\\appsettings.json",
               "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\appsettings.json",
               "RelativeToolTip": "PortifolioAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-26T20:33:39.202Z",
               "IsPinned": true,
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\bryan\\AppData\\Roaming\\Microsoft\\UserSecrets\\038b2b19-442e-441e-99ba-414fa5a42d49\\secrets.json",
               "ToolTip": "C:\\Users\\bryan\\AppData\\Roaming\\Microsoft\\UserSecrets\\038b2b19-442e-441e-99ba-414fa5a42d49\\secrets.json",
@@ -73,10 +73,11 @@
               "RelativeDocumentMoniker": "PortifolioAPI\\SmtpSettings.cs",
               "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\SmtpSettings.cs",
               "RelativeToolTip": "PortifolioAPI\\SmtpSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T20:33:21.195Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,39 +95,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "EmailRequest.cs",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Models\\EmailRequest.cs",
               "RelativeDocumentMoniker": "PortifolioAPI\\Models\\EmailRequest.cs",
               "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Models\\EmailRequest.cs",
               "RelativeToolTip": "PortifolioAPI\\Models\\EmailRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T20:35:01.126Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EmailController.cs",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Controllers\\EmailController.cs",
               "RelativeDocumentMoniker": "PortifolioAPI\\Controllers\\EmailController.cs",
               "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Controllers\\EmailController.cs",
               "RelativeToolTip": "PortifolioAPI\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T21:46:42.128Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "PortifolioAPI\\Services\\EmailService.cs",
               "ToolTip": "D:\\Projetos\\Portifolio\\PortifolioAPI\\PortifolioAPI\\Services\\EmailService.cs",
               "RelativeToolTip": "PortifolioAPI\\Services\\EmailService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAewCYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T20:34:35.054Z",
               "IsPinned": true,

@@ -41,12 +41,17 @@
     "schemas": {
       "EmailRequest": {
         "required": [
+          "email",
           "mensagem",
           "nomeAssunto"
         ],
         "type": "object",
         "properties": {
           "nomeAssunto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
             "minLength": 1,
             "type": "string"
           },

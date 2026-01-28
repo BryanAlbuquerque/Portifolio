@@ -26,6 +26,7 @@ public class EmailService
             <h3>Contato recebido pelo site</h3>
             <p><strong>Nome / Assunto:</strong> {req.NomeAssunto}</p>
             <hr />
+            <p><strong>E-mail:</strong> {req.Email}</p>
             <p><strong>Mensagem:</strong></p>
             <p>{req.Mensagem}</p>
         ";

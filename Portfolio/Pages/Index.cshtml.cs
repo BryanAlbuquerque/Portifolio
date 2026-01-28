@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.Net.Http;
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +17,9 @@ namespace Portfolio.Pages
 
         [BindProperty]
         public string NomeAssunto { get; set; }
+
+        [BindProperty]
+        public string Email { get; set; }
 
         [BindProperty]
         public string Mensagem { get; set; }
@@ -39,6 +43,7 @@ namespace Portfolio.Pages
                 new
                 {
                     nomeAssunto = NomeAssunto,
+                    email = Email,
                     mensagem = Mensagem
                 });
 
