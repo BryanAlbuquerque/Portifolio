@@ -1,17 +1,16 @@
 /* ===== SOBRE ===== */
 #sobre {
-    background: #0b0b20;
-    padding: 60px 0;
+    background: linear-gradient(180deg, #0b0b20, #050515);
+    padding: 90px 0;
 }
-
 
 /* Layout principal */
 .linha {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
@@ -20,47 +19,79 @@
 /* Imagem */
 .coluna-imagem img {
     width: 360px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
     .coluna-imagem img:hover {
-        transform: scale(1.03);
+        transform: scale(1.05);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.85);
     }
 
 /* Texto */
 .coluna-texto {
     flex: 1;
     min-width: 320px;
-    color: #f5f5f5;
+    color: #eaeaf0;
     font-family: 'Arial Rounded MT';
     text-align: justify;
-    line-height: 1.8;
-    font-size: 16px;
-    letter-spacing: 0.3px;
+    line-height: 1.9;
+    font-size: 16.5px;
+    letter-spacing: 0.4px;
 }
 
+/* Título */
 .titulo-secao {
-    font-size: 28px;
+    font-size: 34px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #ffffff;
-    border-left: 4px solid #f5f5f5;
-    padding-left: 12px;
+    position: relative;
+    padding-left: 18px;
 }
 
+    .titulo-secao::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 4px;
+        height: 85%;
+        background: #e31b59;
+        border-radius: 2px;
+    }
+
+/* Texto interno */
 .Texto {
-    margin-top: 10px;
+    margin-top: 15px;
+    color: #d5d5dd;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
     .linha {
         flex-direction: column;
-        gap: 40px;
+        gap: 50px;
+        padding: 0 25px;
     }
 
     .coluna-imagem img {
         width: 280px;
+    }
+
+    .titulo-secao {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+        .titulo-secao::before {
+            display: none;
+        }
+
+    .coluna-texto {
+        text-align: center;
+        font-size: 16px;
     }
 }

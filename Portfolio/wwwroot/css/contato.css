@@ -1,77 +1,118 @@
 /* ===== CONTATO ===== */
 footer {
-    background: #0a0a20;
-    padding: 60px 0;
+    background: linear-gradient(180deg, #050515, #0a0a20);
+    padding: 80px 0;
+    color: #fff;
 }
 
-.contato-esquerda,s
-.contato-direita {
-    flex-basis: 45%;
+    footer .linha {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+/* ===== COLUNA ESQUERDA ===== */
+.contato-esquerda {
+    flex-basis: 40%;
 }
 
     .contato-esquerda h1 {
         font-size: 36px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         color: #fff;
         border-left: 4px solid #e31b59;
-        padding-left: -10px;
-        text-align: left;
-    }
-    .contato-esquerda p {
-        margin: 20px 0;
-        font-size: 18px;
+        padding-left: 15px;
         font-family: 'Arial Rounded MT';
     }
 
+    .contato-esquerda p {
+        margin: 15px 0;
+        font-size: 18px;
+        color: #ccc;
+    }
+
+/* ===== BOTÃO CV ===== */
 .botao-secundario {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
     background: transparent;
     border: 1px solid #e31b59;
     color: #fff;
-    padding: 10px 30px;
-    border-radius: 6px;
-    transition: background 0.3s;
+    padding: 12px 36px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
     text-decoration: none;
     font-family: 'Arial Rounded MT';
 }
 
     .botao-secundario:hover {
-        background: linear-gradient(rgba(0, 0, 0.7), #000dff);
+        background: #e31b59;
+        box-shadow: 0 0 15px rgba(227, 27, 89, 0.5);
     }
 
+/* ===== COLUNA DIREITA (FORM) ===== */
+.contato-direita {
+    flex-basis: 45%;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== INPUTS ===== */
 form input,
 form textarea {
     width: 100%;
-    margin-bottom: 15px;
-    background: #000;
-    border: none;
-    padding: 12px;
+    margin-bottom: 18px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 14px;
     color: #fff;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 16px;
     font-family: 'Arial Rounded MT';
+    transition: border 0.3s, box-shadow 0.3s;
 }
 
+    form input::placeholder,
+    form textarea::placeholder {
+        color: #888;
+    }
+
+    form input:focus,
+    form textarea:focus {
+        outline: none;
+        border-color: #e31b59;
+        box-shadow: 0 0 0 2px rgba(227, 27, 89, 0.3);
+    }
+
+/* ===== BOTÃO ENVIAR ===== */
 form button {
-    width: 200px;
-    border: none;
-    background: #e31b59;
+    width: 180px;
+    background: linear-gradient(135deg, #e31b59, #ff4d88);
     color: #fff;
-    padding: 12px;
-    border-radius: 6px;
+    padding: 14px;
+    border-radius: 8px;
     font-size: 16px;
+    border: none;
     cursor: pointer;
-    transition: opacity 0.3s;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
     form button:hover {
-        opacity: 0.85;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(227, 27, 89, 0.4);
     }
 
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
     footer .linha {
         flex-direction: column;
         gap: 40px;
+    }
+
+    .contato-direita {
+        padding: 30px;
     }
 }
