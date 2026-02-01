@@ -1,10 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "zSIEXClq5OE=",
+  "dgSpecHash": "YHPlP3OQRRQ=",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Portifolio\\Portfolio\\Portfolio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bryan\\.nuget\\packages\\bootstrap\\5.3.8\\bootstrap.5.3.8.nupkg.sha512"
+    "C:\\Users\\bryan\\.nuget\\packages\\azure.core\\1.49.0\\azure.core.1.49.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\azure.identity\\1.17.0\\azure.identity.1.17.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\bootstrap\\5.3.8\\bootstrap.5.3.8.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights.aspnetcore\\2.23.0\\microsoft.applicationinsights.aspnetcore.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights.dependencycollector\\2.23.0\\microsoft.applicationinsights.dependencycollector.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights.eventcountercollector\\2.23.0\\microsoft.applicationinsights.eventcountercollector.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights.perfcountercollector\\2.23.0\\microsoft.applicationinsights.perfcountercollector.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights.windowsserver\\2.23.0\\microsoft.applicationinsights.windowsserver.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.applicationinsights.windowsserver.telemetrychannel\\2.23.0\\microsoft.applicationinsights.windowsserver.telemetrychannel.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.extensions.logging.applicationinsights\\2.23.0\\microsoft.extensions.logging.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.identity.client\\4.76.0\\microsoft.identity.client.4.76.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.76.0\\microsoft.identity.client.extensions.msal.4.76.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.clientmodel\\1.7.0\\system.clientmodel.1.7.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.diagnostics.performancecounter\\6.0.0\\system.diagnostics.performancecounter.6.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.io.filesystem.accesscontrol\\4.7.0\\system.io.filesystem.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

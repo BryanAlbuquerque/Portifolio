@@ -1,0 +1,121 @@
+/* ===== PROJETOS ===== */
+#projetos {
+    background: linear-gradient(180deg, #0a0a20, #050515);
+    padding: 80px 0;
+}
+
+/* TÍTULO */
+.titulo-secao {
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-family: 'Arial Rounded MT';
+}
+
+/* LISTA */
+.lista-projetos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* CARD PROJETO */
+.projeto {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .projeto:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+    }
+
+    /* IMAGEM */
+    .projeto img {
+        width: 420px;
+        height: auto;
+        transition: transform 0.6s ease;
+        border-radius: 16px;
+    }
+
+    .projeto:hover img {
+        transform: scale(1.12);
+    }
+
+/* OVERLAY */
+.camada {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient( rgba(5, 5, 20, 0.3), rgba(5, 5, 20, 0.95) );
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    text-align: center;
+    padding: 0 25px;
+    font-family: 'Arial Rounded MT';
+}
+
+.projeto:hover .camada {
+    opacity: 1;
+}
+
+/* TEXTO DO OVERLAY */
+.camada h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.camada p {
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.4;
+}
+
+/* BOTÃO */
+.botao-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 42px;
+    border-radius: 8px;
+    border: 1px solid #e31b59;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial Rounded MT';
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+    .botao:hover {
+        background: #e31b59;
+        box-shadow: 0 0 20px rgba(227, 27, 89, 0.6);
+        transform: translateY(-2px);
+    }
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .projeto img {
+        width: 320px;
+    }
+
+    .titulo-secao {
+        font-size: 30px;
+    }
+}

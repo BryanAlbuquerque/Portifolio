@@ -21,12 +21,13 @@
 		<None Include="wwwroot\css\nav.css" />
 		<None Include="wwwroot\css\projetos.css" />
 		<None Include="wwwroot\css\sobre.css" />
-		<None Include="wwwroot\Images\Bryan.jpeg" />
 		<None Include="wwwroot\Files\currBryan.pdf" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.17.0" />
 		<PackageReference Include="bootstrap" Version="5.3.8" />
+		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
 	</ItemGroup>
 
 </Project>

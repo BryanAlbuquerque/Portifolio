@@ -3,6 +3,7 @@
 // Serviços
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
+builder.Services.AddApplicationInsightsTelemetry();
 
 var app = builder.Build();
 
