@@ -1,0 +1,13 @@
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\PortifolioAPI.exe
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\appsettings.Development.json
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\appsettings.json
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\dotnet-tools.json
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\PortifolioAPI.dll
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\PortifolioAPI.deps.json
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\PortifolioAPI.runtimeconfig.json
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\PortifolioAPI.pdb
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Release\net10.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

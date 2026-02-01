@@ -6,10 +6,14 @@ namespace Portfolio.Pages
     public class IndexModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public IndexModel(IHttpClientFactory httpClientFactory)
+        public IndexModel(
+            IHttpClientFactory httpClientFactory,
+            IConfiguration configuration)
         {
             _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
         }
 
         [BindProperty]
@@ -21,13 +25,13 @@ namespace Portfolio.Pages
         [BindProperty]
         public string Mensagem { get; set; }
 
-        public void OnGet()
-        {
-        }
+        public void OnGet() { }
 
         public async Task<IActionResult> OnPostEnviarContatoAsync()
         {
-            if (string.IsNullOrWhiteSpace(NomeAssunto) || string.IsNullOrWhiteSpace(Mensagem))
+            if (string.IsNullOrWhiteSpace(NomeAssunto) ||
+                string.IsNullOrWhiteSpace(Email) ||
+                string.IsNullOrWhiteSpace(Mensagem))
             {
                 TempData["Erro"] = "Preencha todos os campos.";
                 return Page();
@@ -35,8 +39,10 @@ namespace Portfolio.Pages
 
             var client = _httpClientFactory.CreateClient();
 
+            var baseUrl = _configuration["ApiSettings:BaseUrl"];
+
             var response = await client.PostAsJsonAsync(
-                "http://localhost:5113/api/email/enviar", 
+                $"{baseUrl}/api/email/enviar",
                 new
                 {
                     nomeAssunto = NomeAssunto,

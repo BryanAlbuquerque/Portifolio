@@ -1,0 +1,9 @@
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.csproj.AssemblyReference.cache
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.AssemblyInfoInputs.cache
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.AssemblyInfo.cs
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.csproj.CoreCompileInputs.cache
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\Portifolio\PortifolioAPI\PortifolioAPI\obj\Debug\net8.0\PortifolioAPI.sourcelink.json
