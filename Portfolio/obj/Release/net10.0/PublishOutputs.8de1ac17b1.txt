@@ -1,6 +1,7 @@
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\Portfolio.exe
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\appsettings.json
+D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\dotnet-tools.json
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\Portfolio.dll
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\Portfolio.deps.json
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\PubTmp\Out\Portfolio.runtimeconfig.json
