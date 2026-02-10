@@ -1,121 +1,198 @@
 /* ===== PROJETOS ===== */
 #projetos {
-    background: linear-gradient(180deg, #0a0a20, #050515);
-    padding: 80px 0;
+    background: linear-gradient(180deg, #0b0b20, #050515);
+    padding: 100px 0;
 }
 
-/* TÍTULO */
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* ===== TITULO ===== */
 .titulo-secao {
     text-align: center;
     color: white;
-    margin-bottom: 60px;
-    font-size: 36px;
+    font-size: 40px;
+    margin-bottom: 70px;
     font-family: 'Arial Rounded MT';
+    letter-spacing: 1px;
 }
 
-/* LISTA */
+/* ===== GRID ===== */
 .lista-projetos {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
 }
 
-/* CARD PROJETO */
+/* ===== CARD ===== */
 .projeto {
-    position: relative;
+    background: linear-gradient( 145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01) );
+    border-radius: 18px;
     overflow: hidden;
-    border-radius: 16px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.03);
+    transition: 0.35s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-    .projeto:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+    /* LINHA LUMINOSA TOPO */
+    .projeto::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 20%;
+        width: 60%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #5b8cff, transparent);
+        opacity: 0;
+        transition: 0.4s;
     }
 
-    /* IMAGEM */
+    .projeto:hover::before {
+        opacity: 1;
+    }
+
+    /* HOVER CARD */
+    .projeto:hover {
+        transform: translateY(-12px) scale(1.02);
+        box-shadow: 0 20px 60px rgba(0,0,0,0.9), 0 0 25px rgba(91,140,255,0.25);
+    }
+
+    /* ===== IMAGEM ===== */
     .projeto img {
-        width: 420px;
-        height: auto;
-        transition: transform 0.6s ease;
-        border-radius: 16px;
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+        transition: 0.5s ease;
     }
 
     .projeto:hover img {
-        transform: scale(1.12);
+        transform: scale(1.05);
     }
 
-/* OVERLAY */
-.camada {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient( rgba(5, 5, 20, 0.3), rgba(5, 5, 20, 0.95) );
-    backdrop-filter: blur(8px);
+/* ===== CONTEUDO ===== */
+.card-info {
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 16px;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    text-align: center;
-    padding: 0 25px;
-    font-family: 'Arial Rounded MT';
+    gap: 15px;
 }
 
-.projeto:hover .camada {
-    opacity: 1;
-}
+    /* TITULO */
+    .card-info h2 {
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+    }
 
-/* TEXTO DO OVERLAY */
-.camada h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
+    /* DESCRIÇÃO */
+    .card-info p {
+        color: #bfc6ff;
+        font-size: 14px;
+        line-height: 1.5;
+    }
 
-.camada p {
-    font-size: 16px;
-    color: #ddd;
-    line-height: 1.4;
-}
-
-/* BOTÃO */
-.botao-container {
+/* ===== TECNOLOGIAS ===== */
+.tech {
     display: flex;
-    justify-content: center;
-    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+    .tech span {
+        background: rgba(91,140,255,0.15);
+        color: #8ea8ff;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        border: 1px solid rgba(91,140,255,0.2);
+    }
+
+/* ===== BOTÕES ===== */
+.card-botoes {
+    margin-top: auto;
+    display: flex;
+    gap: 12px;
+}
+
+    .card-botoes a {
+        flex: 1;
+        text-align: center;
+        padding: 11px;
+        border-radius: 10px;
+        border: 1px solid rgba(91,140,255,0.4);
+        color: #c7d4ff;
+        text-decoration: none;
+        font-weight: 500;
+        background: rgba(91,140,255,0.05);
+        transition: 0.3s;
+        position: relative;
+        overflow: hidden;
+    }
+
+        /* EFEITO BRILHO BOTÃO */
+        .card-botoes a::before {
+            content: "";
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            background: linear-gradient( 120deg, transparent, rgba(255,255,255,0.2), transparent );
+            left: -120%;
+            transition: 0.6s;
+        }
+
+        .card-botoes a:hover::before {
+            left: 120%;
+        }
+
+        /* HOVER BOTÃO */
+        .card-botoes a:hover {
+            background: linear-gradient(120deg, #5b8cff, #7c5bff);
+            border-color: transparent;
+            color: white;
+            box-shadow: 0 0 20px rgba(91,140,255,0.5);
+        }
+
+/* ===== BOTÃO FINAL ===== */
+.botao-container {
+    text-align: center;
+    margin-top: 60px;
 }
 
 .botao {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 42px;
-    border-radius: 8px;
-    border: 1px solid #e31b59;
-    color: white;
+    padding: 13px 48px;
+    border-radius: 30px;
+    border: 1px solid rgba(91,140,255,0.4);
+    color: #c7d4ff;
     text-decoration: none;
-    font-family: 'Arial Rounded MT';
-    background: transparent;
-    transition: all 0.3s ease;
+    font-weight: 600;
+    background: rgba(91,140,255,0.05);
+    transition: 0.3s;
 }
 
+    /* HOVER BOTÃO FINAL */
     .botao:hover {
-        background: #e31b59;
-        box-shadow: 0 0 20px rgba(227, 27, 89, 0.6);
-        transform: translateY(-2px);
+        background: linear-gradient(120deg, #5b8cff, #7c5bff);
+        color: white;
+        box-shadow: 0 0 25px rgba(91,140,255,0.6);
     }
 
-/* MOBILE */
+/* ===== RESPONSIVO ===== */
 @media (max-width: 768px) {
-    .projeto img {
-        width: 320px;
-    }
 
     .titulo-secao {
         font-size: 30px;
+    }
+
+    .projeto img {
+        height: 180px;
     }
 }
