@@ -1,0 +1,162 @@
+/* ===== CONTATO ===== */
+footer {
+    background: linear-gradient(180deg, #050515, #0a0a20);
+    padding: 90px 0;
+    color: #fff;
+}
+
+    footer .linha {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+/* ===== COLUNA ESQUERDA ===== */
+.contato-esquerda {
+    flex-basis: 40%;
+}
+
+    .contato-esquerda h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: #fff;
+        border-left: 4px solid #5b8cff;
+        padding-left: 15px;
+        font-family: 'Arial Rounded MT';
+    }
+
+    .contato-esquerda p {
+        margin: 15px 0;
+        font-size: 18px;
+        color: #bfc6ff;
+    }
+
+/* ===== BOTÃO CV ===== */
+.botao-secundario {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 13px 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(91,140,255,0.4);
+    color: #c7d4ff;
+    text-decoration: none;
+    font-family: 'Arial Rounded MT';
+    font-weight: 600;
+    background: rgba(91,140,255,0.05);
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+    /* EFEITO BRILHO */
+    .botao-secundario::before {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: linear-gradient( 120deg, transparent, rgba(255,255,255,0.25), transparent );
+        left: -120%;
+        transition: 0.6s;
+    }
+
+    .botao-secundario:hover::before {
+        left: 120%;
+    }
+
+    .botao-secundario:hover {
+        background: linear-gradient(120deg, #5b8cff, #7c5bff);
+        color: white;
+        box-shadow: 0 0 25px rgba(91,140,255,0.6);
+    }
+
+/* ===== COLUNA DIREITA (FORM) ===== */
+.contato-direita {
+    flex-basis: 45%;
+    background: linear-gradient( 145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01) );
+    backdrop-filter: blur(14px);
+    padding: 40px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.03);
+}
+
+/* ===== INPUTS ===== */
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 14px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Arial Rounded MT';
+    transition: 0.3s;
+}
+
+    /* PLACEHOLDER */
+    form input::placeholder,
+    form textarea::placeholder {
+        color: #fff;
+    }
+
+    /* FOCUS INPUT */
+    form input:focus,
+    form textarea:focus {
+        outline: none;
+        border-color: #5b8cff;
+        box-shadow: 0 0 0 2px rgba(91,140,255,0.25), 0 0 10px rgba(91,140,255,0.2);
+    }
+
+/* ===== BOTÃO ENVIAR ===== */
+form button {
+    width: 190px;
+    padding: 14px;
+    border-radius: 30px;
+    border: 1px solid rgba(91,140,255,0.4);
+    color: #c7d4ff;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(91,140,255,0.05);
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+    /* EFEITO BRILHO */
+    form button::before {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: linear-gradient( 120deg, transparent, rgba(255,255,255,0.3), transparent );
+        left: -120%;
+        transition: 0.6s;
+    }
+
+    form button:hover::before {
+        left: 120%;
+    }
+
+    /* HOVER BOTÃO */
+    form button:hover {
+        background: linear-gradient(120deg, #5b8cff, #7c5bff);
+        color: white;
+        box-shadow: 0 0 20px rgba(91,140,255,0.6), 0 10px 20px rgba(0,0,0,0.4);
+        transform: translateY(-2px);
+    }
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+    footer .linha {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contato-direita {
+        padding: 30px;
+    }
+}
