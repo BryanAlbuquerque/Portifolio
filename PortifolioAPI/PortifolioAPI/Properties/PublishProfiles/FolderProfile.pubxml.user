@@ -2,8 +2,8 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\Projetos\Portifolio\PortifolioAPI\PublishAPI</_PublishTargetUrl>
-    <History>True|2026-03-19T21:48:48.0472403Z||;</History>
+    <_PublishTargetUrl>D:\Publish\PublishAPI</_PublishTargetUrl>
+    <History>True|2026-03-20T22:27:36.4886928Z||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
