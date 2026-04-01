@@ -137,7 +137,6 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\refint\Portfolio.dll
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.pdb
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.genruntimeconfig.cache
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\ref\Portfolio.dll
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\1y615xpfcw-{0}-dkyeveucfu-dkyeveucfu.gz
 D:\Projetos\Portifolio\Portfolio\bin\Debug\net10.0\Azure.Core.dll
 D:\Projetos\Portifolio\Portfolio\bin\Debug\net10.0\Azure.Identity.dll
 D:\Projetos\Portifolio\Portfolio\bin\Debug\net10.0\Microsoft.ApplicationInsights.dll
@@ -174,4 +173,5 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\staticwebassets.upToDateCheck
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-h1b3jkpqql-h1b3jkpqql.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\w775sgomuo-{0}-5fgebq73o9-5fgebq73o9.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-nlxs7ydath-nlxs7ydath.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\ywpq0hz56v-{0}-56z5xsy9te-56z5xsy9te.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\mruc0g1ryk-{0}-dkyeveucfu-dkyeveucfu.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\ywpq0hz56v-{0}-pu93bfd957-pu93bfd957.gz

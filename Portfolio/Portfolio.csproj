@@ -17,7 +17,7 @@
 
 	<ItemGroup>
 		<None Include="wwwroot\css\contato.css" />
-		<None Include="wwwroot\css\Body.css" />
+		<None Include="wwwroot\css\body.css" />
 		<None Include="wwwroot\css\nav.css" />
 		<None Include="wwwroot\css\projetos.css" />
 		<None Include="wwwroot\css\sobre.css" />
