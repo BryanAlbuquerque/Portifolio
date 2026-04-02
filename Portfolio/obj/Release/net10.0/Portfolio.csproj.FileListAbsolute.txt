@@ -66,7 +66,6 @@ D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\7usyly0psc-{0}-5
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\3o3eku47pf-{0}-ir474ug6zy-ir474ug6zy.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\gh1ttpvux4-{0}-5cl6jzyzps-5cl6jzyzps.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\s2itby4894-{0}-a2c1phmbzv-a2c1phmbzv.gz
-D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\1y615xpfcw-{0}-dkyeveucfu-dkyeveucfu.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\fkmehnfzni-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\6si91vzy89-{0}-c2jlpeoesf-c2jlpeoesf.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\rv86f6bpew-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -174,4 +173,5 @@ D:\Projetos\Portifolio\Portfolio\bin\Release\net10.0\dotnet-tools.json
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\t0pft3tox1-{0}-h1b3jkpqql-h1b3jkpqql.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\wp2ethmg12-{0}-nlxs7ydath-nlxs7ydath.gz
 D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\w775sgomuo-{0}-5fgebq73o9-5fgebq73o9.gz
-D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\ywpq0hz56v-{0}-56z5xsy9te-56z5xsy9te.gz
+D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\mruc0g1ryk-{0}-dkyeveucfu-dkyeveucfu.gz
+D:\Projetos\Portifolio\Portfolio\obj\Release\net10.0\compressed\ywpq0hz56v-{0}-pu93bfd957-pu93bfd957.gz
