@@ -1,4 +1,4 @@
-/* ===== CONTATO ===== */
+/* CONTATO */
 footer {
     background: linear-gradient(180deg, #050515, #0a0a20);
     padding: 90px 0;
@@ -11,7 +11,7 @@ footer {
         gap: 60px;
     }
 
-/* ===== COLUNA ESQUERDA ===== */
+/* COLUNA ESQUERDA */
 .contato-esquerda {
     flex-basis: 40%;
 }
@@ -31,7 +31,7 @@ footer {
         color: #bfc6ff;
     }
 
-/* ===== BOTÃO CV ===== */
+/* BOTÃO CV */
 .botao-secundario {
     display: inline-block;
     margin-top: 30px;
@@ -69,7 +69,7 @@ footer {
         box-shadow: 0 0 25px rgba(91,140,255,0.6);
     }
 
-/* ===== COLUNA DIREITA (FORM) ===== */
+/* COLUNA DIREITA (FORM) */
 .contato-direita {
     flex-basis: 45%;
     background: linear-gradient( 145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01) );
@@ -80,7 +80,7 @@ footer {
     box-shadow: 0 15px 40px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.03);
 }
 
-/* ===== INPUTS ===== */
+/* INPUTS */
 form input,
 form textarea {
     width: 100%;
@@ -109,7 +109,7 @@ form textarea {
         box-shadow: 0 0 0 2px rgba(91,140,255,0.25), 0 0 10px rgba(91,140,255,0.2);
     }
 
-/* ===== BOTÃO ENVIAR ===== */
+/* BOTÃO ENVIAR */
 form button {
     width: 190px;
     padding: 14px;
@@ -148,7 +148,7 @@ form button {
         transform: translateY(-2px);
     }
 
-/* ===== MOBILE ===== */
+/* MOBILE */
 @media (max-width: 768px) {
 
     footer .linha {
