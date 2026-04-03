@@ -1,4 +1,7 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
+
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 // Controllers
 builder.Services.AddControllers();
@@ -24,18 +27,20 @@ builder.Services.Configure<SmtpSettings>(
     builder.Configuration.GetSection("Smtp")
 );
 
-// Servi�o de e-mail
+// Serviço de e-mail
 builder.Services.AddScoped<EmailService>();
 
 var app = builder.Build();
 
+// Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
 
-// ATIVA O CORS
+// CORS
 app.UseCors("SitePolicy");
+
+app.MapGet("/", () => "API ONLINE");
 
 app.MapControllers();
 
