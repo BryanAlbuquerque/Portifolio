@@ -37,27 +37,39 @@ namespace Portfolio.Pages
                 return Page();
             }
 
-            var client = _httpClientFactory.CreateClient();
-
-            var baseUrl = _configuration["ApiSettings:BaseUrl"];
-
-            var response = await client.PostAsJsonAsync(
-                $"{baseUrl}/api/email/enviar",
-                new
-                {
-                    nomeAssunto = NomeAssunto,
-                    email = Email,
-                    mensagem = Mensagem
-                });
-
-            if (response.IsSuccessStatusCode)
+            try
             {
-                TempData["Sucesso"] = "Mensagem enviada com sucesso!";
-                return RedirectToPage();
-            }
+                var client = _httpClientFactory.CreateClient();
 
-            TempData["Erro"] = "Erro ao enviar a mensagem. Tente novamente.";
-            return Page();
+                var baseUrl = _configuration["ApiSettings:BaseUrl"]?.TrimEnd('/');
+
+                var url = $"{baseUrl}/api/email/enviar";
+
+                var response = await client.PostAsJsonAsync(
+                    url,
+                    new
+                    {
+                        nomeAssunto = NomeAssunto,
+                        email = Email,
+                        mensagem = Mensagem
+                    });
+
+                var content = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["Sucesso"] = "Mensagem enviada com sucesso!";
+                    return RedirectToPage();
+                }
+
+                TempData["Erro"] = $"Erro API: {response.StatusCode} - {content}";
+                return Page();
+            }
+            catch (Exception ex)
+            {
+                TempData["Erro"] = $"Erro de conexão: {ex.Message}";
+                return Page();
+            }
         }
     }
 }
