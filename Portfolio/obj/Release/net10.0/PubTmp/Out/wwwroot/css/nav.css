@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ===== CABEÇALHO ===== */
+/* CABEÇALHO */
 header {
     position: relative;
     height: 100vh;
@@ -21,7 +21,7 @@ header {
         z-index: 0;
     }
 
-/* ===== NAVBAR ===== */
+/* NAVBAR */
 nav.navbar {
     position: fixed;
     top: 0;
@@ -45,7 +45,7 @@ nav .container {
     align-items: center;
 }
 
-/* ===== LOGO ===== */
+/* LOGO  */
 .logo-link {
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ nav .container {
         transform: scale(1.08);
     }
 
-/* ===== MENU ===== */
+/*  MENU  */
 .menu-principal {
     gap: 20px;
 }
@@ -90,7 +90,7 @@ nav .container {
             width: 100%;
         }
 
-/* ===== BOTÃO HAMBURGER ===== */
+/*  BOTÃO HAMBURGER */
 .navbar-toggler {
     border: none;
 }
@@ -99,7 +99,7 @@ nav .container {
         box-shadow: none;
     }
 
-/* ===== MENU MOBILE ===== */
+/*  MENU MOBILE */
 @media (max-width: 991px) {
 
     .navbar-collapse {
@@ -122,7 +122,7 @@ nav .container {
         }
 }
 
-/* ===== CONTEÚDO DO HEADER ===== */
+/* CONTEÚDO DO HEADER */
 .header-content {
     position: relative;
     height: 100%;
@@ -152,7 +152,7 @@ nav .container {
         color: #e31b59;
     }
 
-/* ===== HEADER MOBILE ===== */
+/*  HEADER MOBILE */
 @media (max-width: 768px) {
 
     .header-content {
