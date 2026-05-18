@@ -123,6 +123,7 @@ wwwroot\lib\jquery\LICENSE.txt
 wwwroot\Videos\PortalGamerX.gif
 wwwroot\css\skills.css
 wwwroot\images\StorageControl.jpg
+wwwroot\Videos\Xadrez.gif
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\sobre.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
