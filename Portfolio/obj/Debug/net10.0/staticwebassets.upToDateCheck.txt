@@ -51,6 +51,7 @@ wwwroot\Files\currBryan.pdf
 wwwroot\images\api.png
 wwwroot\images\asp.net.png
 wwwroot\images\Background.png
+wwwroot\images\Bryan.png
 wwwroot\images\csharp.png
 wwwroot\images\css.png
 wwwroot\images\dev.png
@@ -122,7 +123,7 @@ wwwroot\lib\jquery\LICENSE.txt
 wwwroot\Videos\DeliciasExpress.gif
 wwwroot\Videos\PortalGamerX.gif
 wwwroot\Videos\ShadowLines.gif
-wwwroot\images\Bryan.png
+wwwroot\Videos\Xadrez.gif
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\skills.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
