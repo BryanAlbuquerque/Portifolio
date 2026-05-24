@@ -47,7 +47,6 @@ wwwroot\css\nav.css
 wwwroot\css\projetos.css
 wwwroot\css\skills.css
 wwwroot\css\sobre.css
-wwwroot\Files\currBryan.pdf
 wwwroot\images\api.png
 wwwroot\images\asp.net.png
 wwwroot\images\Background.png
@@ -124,6 +123,7 @@ wwwroot\Videos\DeliciasExpress.gif
 wwwroot\Videos\PortalGamerX.gif
 wwwroot\Videos\ShadowLines.gif
 wwwroot\Videos\Xadrez.gif
+wwwroot\Files\currBryan.pdf
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\skills.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
