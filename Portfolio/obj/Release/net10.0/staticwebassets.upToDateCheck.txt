@@ -124,6 +124,7 @@ wwwroot\Videos\PortalGamerX.gif
 wwwroot\css\skills.css
 wwwroot\images\StorageControl.jpg
 wwwroot\Videos\Xadrez.gif
+wwwroot\images\Whats.png
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\sobre.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
