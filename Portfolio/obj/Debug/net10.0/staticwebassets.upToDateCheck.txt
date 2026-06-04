@@ -42,11 +42,11 @@ C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\b
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.js.map
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
-wwwroot\css\contato.css
 wwwroot\css\nav.css
 wwwroot\css\projetos.css
 wwwroot\css\skills.css
 wwwroot\css\sobre.css
+wwwroot\Files\currBryan.pdf
 wwwroot\images\api.png
 wwwroot\images\asp.net.png
 wwwroot\images\Background.png
@@ -59,6 +59,7 @@ wwwroot\images\html.png
 wwwroot\images\mySql.png
 wwwroot\images\sql.png
 wwwroot\images\StorageControl.jpg
+wwwroot\images\Whats.png
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -123,12 +124,11 @@ wwwroot\Videos\DeliciasExpress.gif
 wwwroot\Videos\PortalGamerX.gif
 wwwroot\Videos\ShadowLines.gif
 wwwroot\Videos\Xadrez.gif
-wwwroot\Files\currBryan.pdf
-D:\Projetos\Portifolio\Portfolio\wwwroot\css\skills.css
+wwwroot\css\contato.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
-D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
-D:\Projetos\Portifolio\Portfolio\wwwroot\css\sobre.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\projetos.css
+D:\Projetos\Portifolio\Portfolio\wwwroot\css\skills.css
+D:\Projetos\Portifolio\Portfolio\wwwroot\css\sobre.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -188,3 +188,4 @@ D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\LICENSE.txt
+D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css

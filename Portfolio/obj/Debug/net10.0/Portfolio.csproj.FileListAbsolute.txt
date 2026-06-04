@@ -171,7 +171,7 @@ D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\Portfolio.csproj.Up2Date
 D:\Projetos\Portifolio\Portfolio\bin\Debug\net10.0\dotnet-tools.json
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\ywpq0hz56v-{0}-pu93bfd957-pu93bfd957.gz
-D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-oes9nvqklc-oes9nvqklc.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\w775sgomuo-{0}-5077jy1frb-5077jy1frb.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\mruc0g1ryk-{0}-fa6krqeemb-fa6krqeemb.gz
 D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\t0pft3tox1-{0}-pv7nxpsilq-pv7nxpsilq.gz
+D:\Projetos\Portifolio\Portfolio\obj\Debug\net10.0\compressed\wp2ethmg12-{0}-ay3dk3xv67-ay3dk3xv67.gz
