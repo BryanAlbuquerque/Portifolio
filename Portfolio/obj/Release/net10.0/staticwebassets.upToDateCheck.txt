@@ -58,7 +58,7 @@ wwwroot\images\Background.png
 wwwroot\Videos\ShadowLines.gif
 wwwroot\images\api.png
 wwwroot\css\sobre.css
-wwwroot\css\contato.css
+wwwroot\images\Whats.png
 wwwroot\css\projetos.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -124,7 +124,7 @@ wwwroot\Videos\PortalGamerX.gif
 wwwroot\css\skills.css
 wwwroot\images\StorageControl.jpg
 wwwroot\Videos\Xadrez.gif
-wwwroot\images\Whats.png
+wwwroot\css\contato.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\sobre.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css

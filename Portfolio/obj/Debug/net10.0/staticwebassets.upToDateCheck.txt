@@ -42,6 +42,7 @@ C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\b
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.js.map
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js
 C:\Users\bryan\.nuget\packages\bootstrap\5.3.8\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
+wwwroot\css\contato.css
 wwwroot\css\nav.css
 wwwroot\css\projetos.css
 wwwroot\css\skills.css
@@ -124,7 +125,6 @@ wwwroot\Videos\DeliciasExpress.gif
 wwwroot\Videos\PortalGamerX.gif
 wwwroot\Videos\ShadowLines.gif
 wwwroot\Videos\Xadrez.gif
-wwwroot\css\contato.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\projetos.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\skills.css

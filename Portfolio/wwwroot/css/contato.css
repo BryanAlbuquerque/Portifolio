@@ -197,8 +197,8 @@ form button {
 }
 
     .whatsapp-icon img {
-        width: 34px;
-        height: 34px;
+        width: 60px;
+        border-radius: 30px;
         object-fit: contain;
     }
 
@@ -208,8 +208,8 @@ form button {
 
 .whatsapp-label {
     display: block;
-    color: #25d366;
-    font-size: 13px;
+    color: rgba(91,140,255,0.6);
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -224,13 +224,13 @@ form button {
 
 .whatsapp-content p {
     margin: 4px 0 0;
-    color: #cbd5e1;
-    font-size: 15px;
+    color: #fff;
+    font-size: 16px;
 }
 
 .whatsapp-arrow {
     font-size: 28px;
-    color: #25d366;
+    color: #fff;
     transition: transform 0.3s ease;
 }
 
