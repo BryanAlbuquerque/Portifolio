@@ -3839,11 +3839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Portifolio\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "D:\\Projetos\\Portifolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "D:\\Projetos\\Portifolio\\Portfolio\\Portfolio.csproj",
+      "projectPath": "D:\\Projetos\\Portifolio\\Portfolio.csproj",
       "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Portifolio\\Portfolio\\obj\\",
+      "outputPath": "D:\\Projetos\\Portifolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
