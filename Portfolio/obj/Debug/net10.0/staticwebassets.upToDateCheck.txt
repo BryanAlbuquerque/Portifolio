@@ -125,10 +125,11 @@ wwwroot\Videos\DeliciasExpress.gif
 wwwroot\Videos\PortalGamerX.gif
 wwwroot\Videos\ShadowLines.gif
 wwwroot\Videos\Xadrez.gif
-D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
-D:\Projetos\Portifolio\Portfolio\wwwroot\css\projetos.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\skills.css
+D:\Projetos\Portifolio\Portfolio\wwwroot\css\nav.css
+D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\css\sobre.css
+D:\Projetos\Portifolio\Portfolio\wwwroot\css\projetos.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -188,4 +189,3 @@ D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Projetos\Portifolio\Portfolio\wwwroot\lib\jquery\LICENSE.txt
-D:\Projetos\Portifolio\Portfolio\wwwroot\css\contato.css
