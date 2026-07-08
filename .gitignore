@@ -1,0 +1,14 @@
+﻿bin/
+obj/
+.vs/
+*.user
+desktop.ini
+
+# Visual Studio
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
