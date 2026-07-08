@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Projetos\\Portifolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:portfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\wwwroot\\css\\skills.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:wwwroot\\css\\skills.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\wwwroot\\css\\contato.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\wwwroot\\css\\sobre.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:wwwroot\\css\\sobre.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\wwwroot\\css\\skills.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|solutionrelative:wwwroot\\css\\skills.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA89FAD2-1183-4358-8A97-1A0DE0050080}|Portfolio.csproj|d:\\projetos\\portifolio\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -58,20 +54,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 275,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Projetos\\Portifolio\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-06T11:02:44.334Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "body.css",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\wwwroot\\css\\body.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\body.css",
@@ -101,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "nav.css",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\wwwroot\\css\\nav.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\nav.css",
@@ -127,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "projetos.css",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\wwwroot\\css\\projetos.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\projetos.css",
@@ -140,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "skills.css",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\wwwroot\\css\\skills.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\skills.css",
@@ -166,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
@@ -179,16 +176,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projetos\\Portifolio\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\Projetos\\Portifolio\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-18T23:08:30.367Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Portfolio",
+              "DocumentMoniker": "D:\\Projetos\\Portifolio\\Portfolio.csproj",
+              "RelativeDocumentMoniker": "Portfolio.csproj",
+              "ToolTip": "D:\\Projetos\\Portifolio\\Portfolio.csproj",
+              "RelativeToolTip": "Portfolio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-08T22:31:45.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -205,31 +216,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Portfolio.csproj",
-              "DocumentMoniker": "D:\\Projetos\\Portifolio\\Portfolio.csproj",
-              "RelativeDocumentMoniker": "Portfolio.csproj",
-              "ToolTip": "D:\\Projetos\\Portifolio\\Portfolio.csproj",
-              "RelativeToolTip": "Portfolio.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-08T00:55:20.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\Portifolio\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projetos\\Portifolio\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-07T21:53:28.36Z"
             }
           ]
         }

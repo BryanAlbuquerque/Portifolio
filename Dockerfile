@@ -4,8 +4,8 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore "Portifolio.csproj"
-RUN dotnet publish "Portifolio.csproj" -c Release -o /app/publish
+RUN dotnet restore "Portifólio.csproj"
+RUN dotnet publish "Portifólio.csproj" -c Release -o /app/publish
 
 # Etapa de execução
 FROM mcr.microsoft.com/dotnet/aspnet:10.0
