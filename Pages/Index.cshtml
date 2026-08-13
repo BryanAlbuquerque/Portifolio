@@ -1,387 +1,995 @@
 ﻿@page
 @model IndexModel
+
 @{
-    ViewData["Title"] = "";
+    ViewData["Title"] = "Bryan Albuquerque";
 }
 
-
-<!-- ======== CABEÇALHO ======== -->
-<header id="inicio">
+<!-- HEADER / NAVEGAÇÃO -->
+<header id="inicio" class="site-header">
 
     <nav class="navbar navbar-expand-lg">
+
         <div class="container">
 
             <!-- LOGO -->
-            <a href="#inicio" class="logo-link">
-                <img src="~/images/favicon.png" alt="Logo" class="logo-img" />
+            <a href="#inicio" class="logo-link" aria-label="Voltar ao início">
+                <img src="~/images/favicon.png"
+                     alt="Logo Bryan Albuquerque"
+                     class="logo-img" />
             </a>
 
-            <!-- BOTÃO -->
-            <button class="navbar-toggler" type="button"
+            <!-- MENU MOBILE -->
+            <button class="navbar-toggler"
+                    type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#menuPrincipal"
                     aria-controls="menuPrincipal"
                     aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    aria-label="Abrir menu">
+
                 <span class="navbar-toggler-icon"></span>
+
             </button>
 
             <!-- MENU -->
             <div class="collapse navbar-collapse" id="menuPrincipal">
+
                 <ul class="navbar-nav ms-auto menu-principal">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre Mim</a>
+                        <a class="nav-link" href="#inicio">
+                            Início
+                        </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
+                        <a class="nav-link" href="#sobre">
+                            Sobre
+                        </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Habilidades</a>
+                        <a class="nav-link" href="#projetos">
+                            Projetos
+                        </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="nav-link" href="#skills">
+                            Habilidades
+                        </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            Contato
+                        </a>
+                    </li>
+
                 </ul>
+
             </div>
 
         </div>
+
     </nav>
 
 
-    
-    <div class="header-content container">
-        <div class="texto-cabecalho">
-            <p class="subtitulo">Desenvolvedor FullStack</p>
-            <h1>Olá, eu sou <br> <span class="destaque">Bryan Albuquerque</span></h1>
+    <!-- HERO -->
+    <div class="hero-section">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-label">
+                        DESENVOLVEDOR .NET
+                    </span>
+
+                    <h1>
+                        Bryan Albuquerque
+                    </h1>
+
+                    <p class="hero-description">
+                        Desenvolvedor focado na criação de aplicações web,
+                        sistemas desktop e soluções sob medida utilizando
+                        tecnologias do ecossistema .NET.
+                    </p>
+
+                    <div class="hero-technologies">
+
+                        <span>C#</span>
+                        <span>ASP.NET Core</span>
+                        <span>SQL Server</span>
+                        <span>REST API</span>
+
+                    </div>
+
+                    <div class="hero-actions">
+
+                        <a href="#projetos" class="btn-primary-custom">
+                            Ver projetos
+                        </a>
+
+                        <a href="~/Files/currBryan.pdf"
+                           download
+                           class="btn-secondary-custom">
+                            Baixar currículo
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO -->
+                <div class="hero-image">
+
+                    <div class="hero-image-wrapper">
+
+                        <img src="~/images/Bryan.png"
+                             alt="Bryan Albuquerque - Desenvolvedor .NET"
+                             class="foto-perfil" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+
     </div>
+
 </header>
 
 
-<!-- ======== SOBRE ======== -->
-<section id="sobre">
+<!-- SOBRE -->
+<section id="sobre" class="section section-about">
+
     <div class="container">
-        <div class="linha">
-            <div class="coluna-imagem">
-                <img src="/images/Bryan.png" alt="Foto de Bryan Albuquerque" class="foto-perfil" />
+
+        <div class="section-header">
+
+            <span class="section-label">
+                SOBRE MIM
+            </span>
+
+            <h2 class="titulo-secao">
+                Desenvolvimento com foco em soluções reais
+            </h2>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <div class="about-image">
+
+                <img src="~/images/Bryan.png"
+                     alt="Bryan Albuquerque"
+                     class="about-profile-image" />
+
             </div>
 
-            <div class="coluna-texto">
-                <h2 class="titulo-secao">Sobre Mim</h2>
-                <p class="texto">
-                    Formação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (UNIP) e atuo diariamente no desenvolvimento de soluções tecnológicas sob medida.
-                </p>
-                <p class="texto">
-                    Tenho experiência na criação de sistemas desktop e aplicações web, desenvolvendo desde a análise de requisitos, lógica e arquitetura do sistema, até a implementação, testes e manutenção.
-                </p>
-                <p class="texto">
-                    Trabalho com foco em performance, organização de código e usabilidade, entregando soluções eficientes, seguras e alinhadas às necessidades do cliente.
+
+            <div class="about-text">
+
+                <p>
+                    Sou formado em Análise e Desenvolvimento de Sistemas
+                    pela Universidade Paulista (UNIP), com foco no
+                    desenvolvimento de aplicações utilizando C# e o
+                    ecossistema .NET.
                 </p>
 
-                <p class="texto">
-                    💻 O que posso desenvolver para você:
+                <p>
+                    Tenho experiência prática no desenvolvimento de
+                    sistemas desktop e aplicações web, trabalhando desde
+                    a definição da estrutura da aplicação e implementação
+                    da lógica de negócio até integração com banco de dados e
+                    APIs.
+                </p>
+
+                <p>
+                    Busco desenvolver soluções com código organizado,
+                    arquitetura consistente, boa experiência de uso e
+                    facilidade de manutenção.
+                </p>
+
+
+                <div class="about-services">
+
+                    <h3>
+                        O que posso desenvolver
+                    </h3>
+
                     <ul>
-                        <li>Sistemas Desktop personalizados</li>
-                        <li>Sistemas Web e Sites institucionais</li>
-                        <li>Funcionalidades sob demanda e manutenção de sistemas existentes</li>
+
+                        <li>
+                            Sistemas desktop personalizados
+                        </li>
+
+                        <li>
+                            Aplicações web e sistemas administrativos
+                        </li>
+
+                        <li>
+                            APIs e integrações entre sistemas
+                        </li>
+
+                        <li>
+                            Sites institucionais e soluções sob demanda
+                        </li>
+
                     </ul>
 
-                    <p class="texto">
-                    📩 Estou à disposição para atuar como desenvolvedor do seu Sistema ou Site.
-                    para entrar em contato. 👉 <a href="#contato"> Clique aqui!</a>
-                    </p>
-                    
+                </div>
+
             </div>
+
         </div>
-    </div>
-</section>
-
-<!-- ======== Habilidades ======== -->
-<section id="skills" class="skills">
-    <h2>Minhas Habilidades</h2>
-
-    <div class="skills-row">
-        <div class="skill">
-            <span class="icon">
-                <img src="/images/csharp.png" alt="C#" />
-            </span>
-            <span class="name">.NET C#</span>
-        </div>
-
-        <div class="skill">
-            <span class="icon">
-                <img src="/images/sql.png" alt="SQL" />
-            </span>
-            <span class="name">SQL</span>
-        </div>
-
-        <div class="skill">
-            <span class="icon">
-                <img src="/images/mySql.png" alt="MySQL" />
-            </span>
-            <span class="name">MySQL</span>
-        </div>
-
-        <div class="skill">
-            <span class="icon">
-                <img src="~/images/asp.net.png" alt="ASP.NET" />
-            </span>
-            <span class="name">ASP.NET</span>
-        </div>
-
-        <div class="skill">
-            <span class="icon">
-                <img src="~/images/api.png" alt="API" />
-            </span>
-            <span class="name">Web API</span>
-        </div>
-
-        <div class="skill">
-            <span class="icon">
-                <img src="/images/html.png" alt="HTML" />
-            </span>
-            <span class="name">HTML</span>
-        </div>
-
-        <div class="skill">
-            <span class="icon">
-                <img src="~/images/css.png" alt="CSS" />
-            </span>
-            <span class="name">CSS</span>
-        </div>
-
 
     </div>
+
 </section>
 
 
+<!-- HABILIDADES -->
+<section id="skills" class="section skills-section">
 
-<!-- ======== PROJETOS ======== -->
-<section id="projetos">
     <div class="container">
 
-        <h1 class="titulo-secao">Meus Projetos</h1>
+        <div class="section-header">
 
-        <div class="lista-projetos">
+            <span class="section-label">
+                TECNOLOGIAS
+            </span>
 
-            <!-- Portal Gamer -->
-            <div class="projeto">
+            <h2 class="titulo-secao">
+                Habilidades
+            </h2>
 
-                <img src="~/Videos/PortalGamerX.gif" alt="Portal Gamer" />
+            <p class="section-description">
+                Tecnologias utilizadas no desenvolvimento dos meus projetos.
+            </p>
 
-                <div class="card-info">
-                    <h2>PortalGamerX</h2>
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <!-- C# -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <img src="~/images/csharp.png"
+                         alt="C#" />
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>C#</h3>
 
                     <p>
-                        Site para compra de jogos e produtos geeks.
+                        Desenvolvimento de aplicações e lógica de negócio.
                     </p>
 
-                    <div class="tech">
+                </div>
+
+            </div>
+
+
+            <!-- SQL SERVER -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    <img src="~/images/sql.png"
+                         alt="SQL Server" />
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>SQL Server</h3>
+
+                    <p>
+                        Modelagem, consultas e gerenciamento de dados.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MYSQL -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <img src="~/images/mySql.png"
+                         alt="MySQL" />
+
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>MySQL</h3>
+
+                    <p>
+                        Desenvolvimento e gerenciamento de bancos relacionais.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ASP.NET -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <img src="~/images/asp.net.png"
+                         alt="ASP.NET" />
+
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>ASP.NET Core</h3>
+
+                    <p>
+                        Desenvolvimento de aplicações web com .NET.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- WEB API -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <img src="~/images/api.png"
+                         alt="Web API" />
+
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>REST API</h3>
+
+                    <p>
+                        APIs para integração entre aplicações e serviços.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- HTML -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <img src="~/images/html.png"
+                         alt="HTML" />
+
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Estruturação de interfaces e aplicações web.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CSS -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <img src="~/images/css.png"
+                         alt="CSS" />
+
+                </div>
+
+                <div class="skill-info">
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Desenvolvimento visual e responsivo de interfaces.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJETOS -->
+<section id="projetos" class="section projects-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-label">
+                PORTFÓLIO
+            </span>
+
+            <h2 class="titulo-secao">
+                Projetos
+            </h2>
+
+            <p class="section-description">
+                Alguns dos sistemas e aplicações desenvolvidos durante
+                minha trajetória de estudos e desenvolvimento.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- =================================================
+                 PORTAL GAMER
+            ================================================== -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="~/Videos/PortalGamerX.gif"
+                         alt="PortalGamerX" />
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        E-COMMERCE
+                    </span>
+
+                    <h3>
+                        PortalGamerX
+                    </h3>
+
+                    <p>
+                        E-commerce desenvolvido para venda de jogos
+                        e produtos do segmento geek.
+                    </p>
+
+
+                    <div class="project-technologies">
+
                         <span>C#</span>
                         <span>ASP.NET</span>
                         <span>SQL Server</span>
                         <span>Entity Framework</span>
                         <span>MVC</span>
+
                     </div>
 
-                    <div class="card-botoes">
-                        <a href="https://github.com/BryanAlbuquerque/PortalGamerX" target="_blank">
-                           Projeto no GitHub
-                        </a>
-                    </div>
+
+                    <a href="https://github.com/BryanAlbuquerque/PortalGamerX"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        Ver projeto no GitHub
+                        <span>→</span>
+
+                    </a>
+
                 </div>
 
-            </div>
+            </article>
 
-            <!-- Storage Control -->
-            <div class="projeto">
 
-                <img src="/images/StorageControl.jpg" alt="Storage Control" />
+            <!-- =================================================
+                 STORAGE CONTROL
+            ================================================== -->
+            <article class="project-card">
 
-                <div class="card-info">
-                    <h2>Storage Control</h2>
+                <div class="project-image">
+
+                    <img src="~/images/StorageControl.jpg"
+                         alt="Storage Control" />
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        DESKTOP
+                    </span>
+
+                    <h3>
+                        Storage Control
+                    </h3>
 
                     <p>
-                        Sistema desktop completo para controle e gestão de estoque.
+                        Sistema desktop desenvolvido para controle,
+                        organização e gerenciamento de estoque.
                     </p>
 
-                    <div class="tech">
+
+                    <div class="project-technologies">
+
                         <span>C#</span>
                         <span>Windows Forms</span>
                         <span>SQL Server</span>
+
                     </div>
 
-                    <div class="card-botoes">
-                        <a href="https://github.com/BryanAlbuquerque/StorageControl" target="_blank">
-                            Projeto no GitHub
-                        </a>
-                    </div>
+
+                    <a href="https://github.com/BryanAlbuquerque/StorageControl"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        Ver projeto no GitHub
+                        <span>→</span>
+
+                    </a>
+
                 </div>
 
-            </div>
+            </article>
 
-            <!-- ShadowLines -->
-            <div class="projeto">
 
-                <img src="~/Videos/ShadowLines.gif" alt="ShadowLines" />
+            <!-- =================================================
+                 SHADOW & LINES
+            ================================================== -->
+            <article class="project-card">
 
-                <div class="card-info">
-                    <h2>Shadow & Lines</h2>
+                <div class="project-image">
+
+                    <img src="~/Videos/ShadowLines.gif"
+                         alt="Shadow & Lines" />
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        GESTÃO
+                    </span>
+
+                    <h3>
+                        Shadow & Lines
+                    </h3>
 
                     <p>
-                        Sistema desktop para gestão de clientes, funcionários e agendamentos de um studio de Tatuagem.
+                        Sistema para gerenciamento de clientes,
+                        funcionários e agendamentos de um studio
+                        de tatuagem.
                     </p>
 
-                    <div class="tech">
+
+                    <div class="project-technologies">
+
                         <span>C#</span>
                         <span>Windows Forms</span>
                         <span>SQL Server</span>
                         <span>Web API</span>
+
                     </div>
 
-                    <div class="card-botoes">
-                        <a href="https://github.com/BryanAlbuquerque/Shadows-Lines" target="_blank">
-                            Projeto no GitHub
-                        </a>
-                    </div>
+
+                    <a href="https://github.com/BryanAlbuquerque/Shadows-Lines"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        Ver projeto no GitHub
+                        <span>→</span>
+
+                    </a>
+
                 </div>
 
-            </div>
+            </article>
 
-            <!-- Delicias Express -->
-            <div class="projeto">
 
-                <img src="~/Videos/DeliciasExpress.gif" alt="Delicias Express" />
+            <!-- =================================================
+                 DELÍCIAS EXPRESS
+            ================================================== -->
+            <article class="project-card">
 
-                <div class="card-info">
-                    <h2>Delícias Express</h2>
+                <div class="project-image">
+
+                    <img src="~/Videos/DeliciasExpress.gif"
+                         alt="Delícias Express" />
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        APLICAÇÃO WEB
+                    </span>
+
+                    <h3>
+                        Delícias Express
+                    </h3>
 
                     <p>
-                        Plataforma web para venda online de lanches.
+                        Plataforma web desenvolvida para venda
+                        online de lanches.
                     </p>
 
-                    <div class="tech">
+
+                    <div class="project-technologies">
+
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
                         <span>ASP.NET</span>
                         <span>Entity Framework</span>
                         <span>MVC</span>
+
                     </div>
 
-                    <div class="card-botoes">
-                            <a href="https://github.com/BryanAlbuquerque/DeliciaExpress" target="_blank">
-                            Projeto no GitHub
-                        </a>
-                    </div>
-                </div>
 
-            </div>
-
-
-                <!-- Xadrez -->
-                <div class="projeto">
-
-                    <img src="~/Videos/Xadrez.gif" alt="Xadrez" />
-
-                    <div class="card-info">
-                        <h2>Xadrez</h2>
-
-                        <p>
-                            Jogo de xadrez desenvolvido em C# utilizando Windows Forms, com implementação de regras, movimentação das peças e interface gráfica interativa.
-                        </p>
-
-                        <div class="tech">
-                            <span>C#</span>
-                            <span>Windows Forms</span>
-                        </div>
-
-                        <div class="card-botoes">
-                            <a href="https://github.com/BryanAlbuquerque/Xadrez" target="_blank">
-                                Projeto no GitHub
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-        </div>
-
-        <div class="botao-container">
-            <a href="https://github.com/BryanAlbuquerque" target="_blank" class="botao">
-                Veja mais projetos
-            </a>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ======== CONTATO ======== -->
-<footer id="contato">
-    <div class="container">
-
-        <div class="linha">
-            <div class="contato-esquerda">
-                <h1 class="titulo-secao">Entre em Contato</h1>
-                <p> bryanalburquerque2@gmail.com</p>
-                
-                    <a href="https://wa.me/5511974217641"
+                    <a href="https://github.com/BryanAlbuquerque/DeliciaExpress"
                        target="_blank"
-                       class="whatsapp-card">
+                       rel="noopener noreferrer"
+                       class="project-link">
 
-                        <div class="whatsapp-icon">
-                            <img src="/images/Whats.png" alt="WhatsApp" />
-                        </div>
-
-                        <div class="whatsapp-content">
-                            <span class="whatsapp-label">Fale comigo</span>
-                            <h3>WhatsApp</h3>
-                            <p>+55 (11) 97421-7641</p>
-                        </div>
-
-                        <div class="whatsapp-arrow">
-                            →
-                        </div>
+                        Ver projeto no GitHub
+                        <span>→</span>
 
                     </a>
 
-                <a href="~/Files/currBryan.pdf" download class="botao-secundario">Download CV</a>
-            </div>
+                </div>
 
-            <div class="contato-direita">
-                <form method="post" asp-page-handler="EnviarContato">
-                    <input type="text"
-                           name="NomeAssunto"
-                           placeholder="Seu Nome e Assunto"
-                           required />
+            </article>
 
-                    <input type="text"
-                           name="Email"
-                           placeholder="Seu email"
-                           required />
 
-                    <textarea name="Mensagem"
-                              rows="6"
-                              placeholder="Sua Mensagem"
-                              required></textarea>
+            <!-- =================================================
+                 XADREZ
+            ================================================== -->
+            <article class="project-card">
 
-                    <button type="submit" class="botao-secundario">
-                        Enviar
-                    </button>
-                </form>
+                <div class="project-image">
 
-                @if (TempData["Sucesso"] != null)
-                {
-                    <p style="color: green;">@TempData["Sucesso"]</p>
-                }
+                    <img src="~/Videos/Xadrez.gif"
+                         alt="Jogo de Xadrez" />
 
-                @if (TempData["Erro"] != null)
-                {
-                    <p style="color: red;">@TempData["Erro"]</p>
-                }
-            </div>
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        DESKTOP
+                    </span>
+
+                    <h3>
+                        Xadrez
+                    </h3>
+
+                    <p>
+                        Jogo de xadrez desenvolvido em C# e Windows Forms,
+                        com implementação das regras, movimentação das
+                        peças e interface gráfica interativa.
+                    </p>
+
+
+                    <div class="project-technologies">
+
+                        <span>C#</span>
+                        <span>Windows Forms</span>
+
+                    </div>
+
+
+                    <a href="https://github.com/BryanAlbuquerque/Xadrez"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+
+                        Ver projeto no GitHub
+                        <span>→</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
         </div>
+
+
+        <!-- MAIS PROJETOS -->
+        <div class="projects-more">
+
+            <a href="https://github.com/BryanAlbuquerque"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-secondary-custom">
+
+                Ver mais projetos no GitHub
+                <span>→</span>
+
+            </a>
+
+        </div>
+
     </div>
+
+</section>
+
+
+<!-- CONTATO -->
+<section id="contato" class="section contact-section">
+
+    <div class="container">
+
+        <div class="contact-content">
+
+
+            <div class="contact-intro">
+
+                <span class="section-label">
+                    CONTATO
+                </span>
+
+                <h2>
+                    Vamos conversar?
+                </h2>
+
+                <p>
+                    Estou disponível para oportunidades profissionais,
+                    projetos de desenvolvimento e trabalhos sob demanda.
+                </p>
+
+                <a href="~/Files/currBryan.pdf"
+                   download
+                   class="btn-primary-custom">
+
+                    Baixar currículo
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-links">
+
+
+                <!-- E-MAIL -->
+                <a href="mailto:bryanalburquerque2@gmail.com"
+                   class="contact-card">
+
+                    <div class="contact-card-icon">
+
+                        <span>✉</span>
+
+                    </div>
+
+                    <div class="contact-card-content">
+
+                        <span class="contact-card-label">
+                            E-mail
+                        </span>
+
+                        <strong>
+                            bryanalburquerque2@gmail.com
+                        </strong>
+
+                    </div>
+
+                    <span class="contact-card-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- WHATSAPP -->
+                <a href="https://wa.me/5511974217641"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
+
+                    <div class="contact-card-icon">
+
+                        <img src="~/images/Whats.png"
+                             alt="WhatsApp" />
+
+                    </div>
+
+                    <div class="contact-card-content">
+
+                        <span class="contact-card-label">
+                            WhatsApp
+                        </span>
+
+                        <strong>
+                            +55 (11) 97421-7641
+                        </strong>
+
+                    </div>
+
+                    <span class="contact-card-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- GITHUB -->
+                <a href="https://github.com/BryanAlbuquerque"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
+
+                    <div class="contact-card-icon contact-text-icon">
+                        GH
+                    </div>
+
+                    <div class="contact-card-content">
+
+                        <span class="contact-card-label">
+                            GitHub
+                        </span>
+
+                        <strong>
+                            BryanAlbuquerque
+                        </strong>
+
+                    </div>
+
+                    <span class="contact-card-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-main">
+
+
+            <!-- IDENTIDADE -->
+            <div class="footer-brand">
+
+                <a href="#inicio" class="footer-logo">
+
+                    <img src="~/images/favicon.png"
+                         alt="Bryan Albuquerque" />
+
+                    <span>
+                        Bryan Albuquerque
+                    </span>
+
+                </a>
+
+                <p>
+                    Desenvolvedor .NET focado na criação de aplicações
+                    e soluções tecnológicas.
+                </p>
+
+            </div>
+
+
+            <!-- NAVEGAÇÃO -->
+            <div class="footer-navigation">
+
+                <h3>
+                    Navegação
+                </h3>
+
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+                <a href="#projetos">
+                    Projetos
+                </a>
+
+                <a href="#skills">
+                    Habilidades
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
+
+            </div>
+
+
+            <!-- LINKS -->
+            <div class="footer-social">
+
+                <h3>
+                    Conecte-se
+                </h3>
+
+                <a href="https://github.com/BryanAlbuquerque"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    GitHub
+
+                </a>
+
+                <a href="mailto:bryanalburquerque2@gmail.com">
+
+                    E-mail
+
+                </a>
+
+                <a href="https://wa.me/5511974217641"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    WhatsApp
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+
+            <span>
+                © @DateTime.Now.Year Bryan Albuquerque
+            </span>
+
+            <span>
+                Desenvolvido com ASP.NET Core
+            </span>
+
+        </div>
+
+    </div>
+
 </footer>
