@@ -7,12 +7,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="wwwroot\js\" />
 		<Folder Include="wwwroot\Videos\" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="wwwroot\css\responsive.css" />
 		<None Include="wwwroot\Files\currBryan.pdf" />
 	</ItemGroup>
 

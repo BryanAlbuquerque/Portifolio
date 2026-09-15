@@ -1,0 +1,249 @@
+﻿/* PROJECTS */
+
+.projects-section {
+    background: var(--bg-main);
+}
+
+.projects-heading {
+    margin-bottom: 60px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+
+/* CARD */
+
+.project-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: linear-gradient( 145deg, rgba(18,21,33,.95), rgba(10,12,19,.98) );
+    box-shadow: 0 15px 50px rgba(0,0,0,.18);
+    transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+
+    .project-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        background: linear-gradient( 135deg, rgba(124,92,255,.06), transparent 35% );
+    }
+
+    .project-card:hover {
+        transform: translateY(-10px);
+        border-color: rgba(124,92,255,.4);
+        box-shadow: 0 30px 80px rgba(0,0,0,.45), 0 0 40px rgba(124,92,255,.08);
+    }
+
+
+/* IMAGEM */
+
+.project-image {
+    position: relative;
+    height: 285px;
+    overflow: hidden;
+    background: #0a0c12;
+}
+
+    .project-image::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        pointer-events: none;
+        background: linear-gradient( 180deg, rgba(5,6,10,.05), transparent 45%, rgba(5,6,10,.8) );
+    }
+
+    .project-image::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        pointer-events: none;
+        box-shadow: inset 0 0 60px rgba(0,0,0,.25);
+    }
+
+    .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform .8s cubic-bezier(.2,.8,.2,1), filter .8s ease;
+    }
+
+.project-card:hover .project-image img {
+    transform: scale(1.07);
+    filter: brightness(1.08);
+}
+
+
+/* OVERLAY */
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 17px;
+}
+
+    .project-overlay span {
+        padding: 6px 9px;
+        border: 1px solid rgba(255,255,255,.15);
+        border-radius: 7px;
+        background: rgba(5,6,10,.65);
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+        font-size: .52rem;
+        backdrop-filter: blur(10px);
+    }
+
+    .project-overlay a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border: 1px solid rgba(255,255,255,.15);
+        border-radius: 10px;
+        background: rgba(5,6,10,.65);
+        color: white;
+        backdrop-filter: blur(10px);
+        transition: all var(--transition);
+    }
+
+        .project-overlay a:hover {
+            color: var(--primary-light);
+            border-color: rgba(124,92,255,.45);
+            background: rgba(124,92,255,.16);
+            transform: translateY(-3px);
+        }
+
+
+/*  CONTEÚDO */
+
+.project-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 26px;
+}
+
+.project-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.project-category {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-light);
+    font-family: "JetBrains Mono", monospace;
+    font-size: .56rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+}
+
+.project-content h3 {
+    margin-bottom: 10px;
+    color: var(--text);
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: -.04em;
+}
+
+.project-content > p {
+    min-height: 65px;
+    margin-bottom: 20px;
+    color: var(--text-secondary);
+    font-size: .78rem;
+    line-height: 1.75;
+}
+
+
+/* TECNOLOGIAS */
+
+.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 25px;
+}
+
+    .project-technologies span {
+        display: inline-flex;
+        align-items: center;
+        padding: 6px 9px;
+        border: 1px solid rgba(124,92,255,.12);
+        border-radius: 7px;
+        background: rgba(124,92,255,.055);
+        color: var(--text-secondary);
+        font-family: "JetBrains Mono", monospace;
+        font-size: .52rem;
+        transition: all var(--transition);
+    }
+
+.project-card:hover .project-technologies span {
+    border-color: rgba(124,92,255,.2);
+}
+
+
+/* LINK */
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    width: fit-content;
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: .7rem;
+    font-weight: 700;
+    transition: color var(--transition);
+}
+
+    .project-link i {
+        color: var(--primary-light);
+        transition: transform var(--transition);
+    }
+
+    .project-link:hover {
+        color: white;
+    }
+
+        .project-link:hover i {
+            transform: translateX(5px);
+        }
+
+
+/* MAIS PROJETOS */
+
+.projects-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 50px;
+}
+
+    .projects-more p {
+        margin: 0;
+        color: var(--text-muted);
+        font-size: .7rem;
+    }

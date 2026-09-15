@@ -1,6 +1,32 @@
-/* =========================================================
-   TABLETS
-========================================================= */
+﻿/* TABLETS */
+
+@media (max-width: 1100px) {
+
+    .hero-content {
+        grid-template-columns: minmax(0,1fr) minmax(350px,.8fr);
+        gap: 35px;
+    }
+
+    .hero-text h1 {
+        font-size: clamp( 3rem, 6vw, 5.5rem );
+    }
+
+    .hero-visual {
+        transform: scale(.9);
+    }
+
+    .about-content {
+        gap: 50px;
+    }
+
+    .contact-box {
+        gap: 45px;
+        padding: 55px;
+    }
+}
+
+
+/*  TABLET */
 
 @media (max-width: 991.98px) {
 
@@ -17,54 +43,50 @@
             padding: 11px 10px !important;
         }
 
+    .theme-controls {
+        margin: 8px 0 10px;
+    }
+
     .hero-section {
         min-height: auto;
-        padding: 75px 0 85px;
+        padding: 120px 0 85px;
     }
 
     .hero-content {
-        grid-template-columns: minmax(0, 1fr) 260px;
-        gap: 45px;
+        grid-template-columns: minmax(0,1fr) 300px;
+        gap: 40px;
     }
 
-    .hero-image-wrapper {
-        width: 260px;
-        height: 330px;
+    .hero-visual {
+        min-height: 520px;
+        transform: scale(.85);
     }
 
     .about-content {
-        grid-template-columns: 250px minmax(0, 1fr);
+        grid-template-columns: 280px minmax(0,1fr);
         gap: 45px;
     }
 
-    .about-profile-image {
-        max-width: 250px;
-    }
-
     .skills-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2,minmax(0,1fr));
     }
 
     .projects-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2,minmax(0,1fr));
         gap: 18px;
     }
 
     .project-image {
-        height: 220px;
+        height: 240px;
     }
 
     .project-content {
         padding: 23px;
     }
 
-    .contact-content {
+    .contact-box {
         grid-template-columns: 1fr;
         gap: 45px;
-    }
-
-    .contact-intro {
-        max-width: 700px;
     }
 
     .footer-main {
@@ -74,9 +96,7 @@
 }
 
 
-/* =========================================================
-   CELULARES
-========================================================= */
+/* CELULARES */
 
 @media (max-width: 767.98px) {
 
@@ -90,31 +110,32 @@
     }
 
     .hero-section {
-        padding: 60px 0 70px;
+        padding: 110px 0 70px;
     }
 
     .hero-content {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: stretch;
-        gap: 40px;
+        gap: 35px;
     }
 
-    .hero-image {
-        justify-content: flex-start;
+    .hero-text {
+        max-width: none;
     }
 
-    .hero-image-wrapper {
-        width: 220px;
-        height: 270px;
+    .hero-visual {
+        min-height: 470px;
+        margin-top: 10px;
+        transform: scale(.85);
     }
 
     .hero-text h1 {
-        font-size: clamp(2.7rem, 13vw, 4rem);
+        font-size: clamp( 2.7rem, 13vw, 4rem );
     }
 
     .hero-description {
-        font-size: 0.98rem;
+        font-size: .92rem;
     }
 
     .hero-technologies {
@@ -122,18 +143,15 @@
     }
 
         .hero-technologies span {
-            font-size: 0.76rem;
+            font-size: .62rem;
         }
 
-    .hero-actions {
-        width: 100%;
-        flex-direction: column;
-        align-items: stretch;
+    .floating-card-one {
+        right: -5px;
     }
 
-    .btn-primary-custom,
-    .btn-secondary-custom {
-        width: 100%;
+    .floating-card-two {
+        left: 0;
     }
 
     .section {
@@ -151,21 +169,16 @@
     .about-content {
         display: flex;
         flex-direction: column;
-        gap: 35px;
+        gap: 40px;
     }
 
-    .about-image {
-        position: static;
+    .about-image-area {
+        max-width: 320px;
+        margin: 0 auto;
     }
 
-    .about-profile-image {
-        width: 220px;
-        max-width: 220px;
-    }
-
-    .about-services ul {
+    .services-grid {
         grid-template-columns: 1fr;
-        gap: 12px;
     }
 
     .skills-grid {
@@ -177,19 +190,19 @@
     }
 
     .project-image {
-        height: 230px;
+        height: 240px;
     }
 
     .project-content > p {
         min-height: auto;
     }
 
-    .contact-content {
-        gap: 35px;
+    .contact-box {
+        padding: 40px 25px;
     }
 
     .contact-intro h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .contact-card {
@@ -197,7 +210,7 @@
     }
 
     .contact-card-content strong {
-        font-size: 0.84rem;
+        font-size: .72rem;
     }
 
     .footer-main {
@@ -214,48 +227,88 @@
 }
 
 
-/* =========================================================
-   CELULARES PEQUENOS
-========================================================= */
+/* CELULARES PEQUENOS */
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
 
     .container {
         padding-left: 16px;
         padding-right: 16px;
     }
 
+    .logo-name {
+        display: none;
+    }
+
+    .theme-button span {
+        display: none;
+    }
+
+    .theme-controls {
+        gap: 2px;
+    }
+
+    .theme-button {
+        width: 32px;
+        padding: 6px;
+    }
+
     .hero-section {
-        padding-top: 45px;
+        padding-top: 105px;
     }
 
-    .hero-image-wrapper {
-        width: 190px;
-        height: 235px;
+    .hero-visual {
+        min-height: 420px;
+        margin: -10px -45px;
+        transform: scale(.72);
     }
 
-    .hero-text h1 {
-        font-size: 2.65rem;
+    .hero-code-card {
+        display: none;
     }
 
-    .hero-label,
-    .section-label {
-        font-size: 0.7rem;
+    .floating-card {
+        transform: scale(.9);
+    }
+
+    .decoration-one {
+        width: 390px;
+        height: 390px;
+    }
+
+    .decoration-two {
+        width: 450px;
+        height: 450px;
     }
 
     .project-image {
-        height: 205px;
+        height: 220px;
     }
 
     .project-content {
-        padding: 20px;
+        padding: 21px;
     }
 
-        .project-content h3 {
-            font-size: 1.2rem;
-        }
-
     .contact-card-content strong {
-        max-width: 200px;
+        font-size: .65rem;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+
+/* CELULARES MUITO PEQUENOS */
+
+@media (max-width: 380px) {
+
+    .hero-visual {
+        transform: scale(.63);
+        margin: -40px -80px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.7rem;
     }
 }
