@@ -1,150 +1,476 @@
-﻿/* TEMA CLARO */
+﻿/* Tema original */
 
-body.light-theme {
-    --bg-main: #f6f7fb;
-    --bg-secondary: #ffffff;
-    --bg-card: rgba(255,255,255,.85);
-    --bg-card-solid: #ffffff;
-    --text: #171923;
-    --text-secondary: #596174;
-    --text-muted: #7b8294;
-    --border: rgba(20,25,40,.10);
-    --border-light: rgba(20,25,40,.16);
-    --shadow: 0 25px 70px rgba(32,39,65,.12);
-    background: radial-gradient( circle at 50% -20%, rgba(124,92,255,.10), transparent 40% ), var(--bg-main);
+:root {
+    --theme-bg: #070812;
+    --theme-bg-secondary: #0b0d18;
+    --theme-surface: #10121f;
+    --theme-surface-hover: #171a2a;
+    --theme-text: #ffffff;
+    --theme-text-secondary: #a9adbd;
+    --theme-text-muted: #777c91;
+    --theme-border: rgba(255, 255, 255, 0.08);
+    --theme-border-strong: rgba(255, 255, 255, 0.14);
+    --theme-primary: #7c5cff;
+    --theme-primary-light: #9b85ff;
+    --theme-shadow: rgba(0, 0, 0, 0.35);
+    --theme-grid: rgba(255, 255, 255, 0.035);
 }
 
-/* HEADER */
 
-    body.light-theme .site-header {
-        background: rgba(255,255,255,.82);
-        border-bottom: 1px solid var(--border);
+/* Tema claro */
+
+html[data-theme="light"],
+body[data-theme="light"] {
+    --theme-bg: #f5f6fa;
+    --theme-bg-secondary: #ffffff;
+    --theme-surface: #ffffff;
+    --theme-surface-hover: #f0f2f7;
+    --theme-text: #171923;
+    --theme-text-secondary: #555b6e;
+    --theme-text-muted: #73798a;
+    --theme-border: rgba(20, 25, 40, 0.09);
+    --theme-border-strong: rgba(20, 25, 40, 0.15);
+    --theme-primary: #6847e8;
+    --theme-primary-light: #8065ed;
+    --theme-shadow: rgba(30, 35, 55, 0.10);
+    --theme-grid: rgba(20, 25, 40, 0.055);
+}
+
+
+/* Base */
+
+html,
+body {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Fundo */
+
+.background-grid {
+    background-image: linear-gradient( var(--theme-grid) 1px, transparent 1px ), linear-gradient( 90deg, var(--theme-grid) 1px, transparent 1px );
+}
+
+
+/* Header */
+
+.site-header {
+    background-color: var(--theme-bg);
+    border-color: var(--theme-border);
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.logo-name strong {
+    color: var(--theme-text);
+}
+
+.logo-name span {
+    color: var(--theme-text-secondary);
+}
+
+.nav-link {
+    color: var(--theme-text-secondary) !important;
+}
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--theme-text) !important;
     }
 
-    body.light-theme .menu-principal .nav-link:hover {
-        color: var(--text);
-        background: rgba(124,92,255,.06);
+.navbar-toggler {
+    color: var(--theme-text);
+    border-color: var(--theme-border);
+}
+
+.navbar-toggler-icon {
+    filter: none;
+}
+
+
+/* Controles de tema */
+
+.theme-controls {
+    color: var(--theme-text);
+}
+
+.theme-button {
+    color: var(--theme-text-secondary);
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+}
+
+    .theme-button:hover {
+        color: var(--theme-primary);
+        background-color: var(--theme-surface-hover);
+        border-color: var(--theme-border-strong);
     }
 
-    body.light-theme .navbar-toggler {
-        background: rgba(20,25,40,.04);
-    }
-
-    body.light-theme .navbar-toggler-icon {
-        filter: none;
-    }
-
-/* HERO */
-
-    body.light-theme .hero-section::before {
-        background: radial-gradient( circle, rgba(124,92,255,.12), transparent 65% );
-    }
-
-    body.light-theme .outline-text {
-        -webkit-text-stroke: 1px rgba(20,25,40,.55);
-    }
-
-    body.light-theme .hero-technologies span {
-        background: rgba(255,255,255,.65);
-    }
-
-    body.light-theme .hero-social a {
-        background: rgba(255,255,255,.7);
-    }
-
-    body.light-theme .floating-card {
-        background: rgba(255,255,255,.82);
-        box-shadow: 0 20px 50px rgba(32,39,65,.15);
-    }
-
-        body.light-theme .floating-card strong {
-            color: var(--text);
-        }
-
-
-/* ABOUT */
-
-    body.light-theme .about-image-frame {
-        background: linear-gradient( 145deg, rgba(124,92,255,.10), rgba(255,255,255,.7) );
-    }
-
-    body.light-theme .experience-badge {
-        background: rgba(255,255,255,.88);
-        box-shadow: 0 20px 50px rgba(32,39,65,.15);
-    }
-
-/* SKILLS */
-
-    body.light-theme .skill-card {
-        background: rgba(255,255,255,.78);
-        box-shadow: 0 10px 35px rgba(32,39,65,.04);
-    }
-
-        body.light-theme .skill-card:hover {
-            background: rgba(255,255,255,.98);
-            box-shadow: 0 20px 50px rgba(32,39,65,.10);
-        }
-
-/* PROJETOS */
-
-    body.light-theme .project-card {
-        background: linear-gradient( 145deg, #ffffff, #f9faff );
-        box-shadow: 0 15px 50px rgba(32,39,65,.08);
-    }
-
-        body.light-theme .project-card:hover {
-            box-shadow: 0 30px 70px rgba(32,39,65,.14), 0 0 40px rgba(124,92,255,.07);
-        }
-
-    body.light-theme .project-image {
-        background: #e9ebf2;
-    }
-
-    body.light-theme .project-technologies span {
-        background: rgba(124,92,255,.05);
-        color: var(--text-secondary);
-    }
-
-    body.light-theme .project-overlay span,
-    body.light-theme .project-overlay a {
-        background: rgba(20,25,40,.68);
+    .theme-button.active {
+        color: var(--theme-primary);
+        background-color: var(--theme-surface-hover);
+        border-color: var(--theme-primary);
     }
 
 
-/* CONTATO */
+/* Hero */
 
-    body.light-theme .contact-box {
-        background: radial-gradient( circle at 10% 20%, rgba(124,92,255,.10), transparent 35% ), linear-gradient( 135deg, rgba(124,92,255,.04), rgba(255,255,255,.75) );
+.hero-section {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+}
+
+.hero-text h1 {
+    color: var(--theme-text);
+}
+
+.hero-description {
+    color: var(--theme-text-secondary);
+}
+
+    .hero-description strong {
+        color: var(--theme-text);
     }
 
-    body.light-theme .contact-card {
-        background: rgba(255,255,255,.72);
+.hero-label {
+    color: var(--theme-primary);
+}
+
+.hero-technologies span {
+    color: var(--theme-text-secondary);
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+}
+
+    .hero-technologies span:hover {
+        color: var(--theme-primary);
+        border-color: var(--theme-primary);
+        background-color: var(--theme-surface-hover);
     }
 
-        body.light-theme .contact-card:hover {
-            background: rgba(255,255,255,.95);
-            box-shadow: 0 15px 35px rgba(32,39,65,.08);
-        }
+.hero-social span {
+    color: var(--theme-text-muted);
+}
 
+.hero-social a {
+    color: var(--theme-text-secondary);
+    border-color: var(--theme-border);
+    background-color: var(--theme-surface);
+}
 
-/* FOOTER */
-
-    body.light-theme .site-footer {
-        background: #eef0f6;
+    .hero-social a:hover {
+        color: var(--theme-primary);
+        border-color: var(--theme-primary);
+        background-color: var(--theme-surface-hover);
     }
 
-    body.light-theme .footer-navigation h3,
-    body.light-theme .footer-social h3 {
-        color: var(--text);
+.outline-text {
+    color: transparent;
+}
+
+
+/* Seções */
+
+.section {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+}
+
+.section-header {
+    color: var(--theme-text);
+}
+
+.section-label {
+    color: var(--theme-primary);
+}
+
+.section-description {
+    color: var(--theme-text-secondary);
+}
+
+.titulo-secao {
+    color: var(--theme-text);
+}
+
+
+/* Sobre */
+
+.section-about {
+    background-color: var(--theme-bg-secondary);
+}
+
+.about-text {
+    color: var(--theme-text);
+}
+
+.about-intro span {
+    color: var(--theme-primary);
+}
+
+.about-text p {
+    color: var(--theme-text-secondary);
+}
+
+.about-text strong {
+    color: var(--theme-text);
+}
+
+.about-services h4 {
+    color: var(--theme-text);
+}
+
+.service-item {
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+}
+
+    .service-item:hover {
+        background-color: var(--theme-surface-hover);
+        border-color: var(--theme-border-strong);
     }
 
-    body.light-theme .footer-bottom {
-        color: #7b8294;
+    .service-item > span {
+        color: var(--theme-primary);
     }
 
-/* THEME BUTTON */
-
-    body.light-theme .theme-button.active {
-        color: #6650d9;
-        background: rgba(124,92,255,.10);
+    .service-item strong {
+        color: var(--theme-text);
     }
+
+    .service-item p {
+        color: var(--theme-text-secondary);
+    }
+
+
+/* Skills */
+
+.skills-section {
+    background-color: var(--theme-bg);
+}
+
+.skill-card {
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+    box-shadow: 0 15px 40px var(--theme-shadow);
+}
+
+    .skill-card:hover {
+        background-color: var(--theme-surface-hover);
+        border-color: var(--theme-border-strong);
+    }
+
+.skill-info h3 {
+    color: var(--theme-text);
+}
+
+.skill-info p {
+    color: var(--theme-text-secondary);
+}
+
+
+/* Projetos */
+
+.projects-section {
+    background-color: var(--theme-bg-secondary);
+}
+
+.project-card {
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+    box-shadow: 0 15px 40px var(--theme-shadow);
+}
+
+    .project-card:hover {
+        border-color: var(--theme-border-strong);
+        box-shadow: 0 20px 50px var(--theme-shadow);
+    }
+
+.project-content {
+    background-color: var(--theme-surface);
+}
+
+.project-category {
+    color: var(--theme-primary);
+}
+
+.project-content h3 {
+    color: var(--theme-text);
+}
+
+.project-content p {
+    color: var(--theme-text-secondary);
+}
+
+.project-technologies span {
+    color: var(--theme-text-secondary);
+    background-color: var(--theme-surface-hover);
+    border-color: var(--theme-border);
+}
+
+.project-link {
+    color: var(--theme-primary);
+}
+
+    .project-link:hover {
+        color: var(--theme-primary-light);
+    }
+
+.projects-more p {
+    color: var(--theme-text-secondary);
+}
+
+.btn-secondary-custom {
+    color: var(--theme-text);
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+}
+
+    .btn-secondary-custom:hover {
+        color: var(--theme-primary);
+        background-color: var(--theme-surface-hover);
+        border-color: var(--theme-primary);
+    }
+
+
+/* Contato */
+
+.contact-section {
+    background-color: var(--theme-bg);
+}
+
+.contact-box {
+    background-color: var(--theme-surface);
+    border-color: var(--theme-border);
+    box-shadow: 0 20px 60px var(--theme-shadow);
+}
+
+.contact-intro h2 {
+    color: var(--theme-text);
+}
+
+.contact-intro p {
+    color: var(--theme-text-secondary);
+}
+
+    .contact-intro p strong {
+        color: var(--theme-text);
+    }
+
+.contact-card {
+    background-color: var(--theme-bg-secondary);
+    border-color: var(--theme-border);
+}
+
+    .contact-card:hover {
+        background-color: var(--theme-surface-hover);
+        border-color: var(--theme-primary);
+    }
+
+.contact-card-content span {
+    color: var(--theme-text-muted);
+}
+
+.contact-card-content strong {
+    color: var(--theme-text);
+}
+
+.contact-card-arrow {
+    color: var(--theme-text-muted);
+}
+
+.contact-card:hover .contact-card-arrow {
+    color: var(--theme-primary);
+}
+
+
+/* Botão principal */
+
+.btn-primary-custom {
+    color: #ffffff;
+    background-color: var(--theme-primary);
+    border-color: var(--theme-primary);
+}
+
+    .btn-primary-custom:hover {
+        color: #ffffff;
+        background-color: var(--theme-primary-light);
+        border-color: var(--theme-primary-light);
+    }
+
+
+/* Footer */
+
+.site-footer {
+    background-color: var(--theme-bg-secondary);
+    color: var(--theme-text);
+    border-top-color: var(--theme-border);
+}
+
+.footer-brand p {
+    color: var(--theme-text-secondary);
+}
+
+.footer-logo {
+    color: var(--theme-text);
+}
+
+.footer-navigation h3,
+.footer-social h3 {
+    color: var(--theme-text);
+}
+
+.footer-navigation a,
+.footer-social a {
+    color: var(--theme-text-secondary);
+}
+
+    .footer-navigation a:hover,
+    .footer-social a:hover {
+        color: var(--theme-primary);
+    }
+
+.footer-bottom {
+    border-top-color: var(--theme-border);
+    color: var(--theme-text-muted);
+}
+
+    .footer-bottom strong {
+        color: var(--theme-text);
+    }
+
+
+/* Decorações */
+
+html[data-theme="light"] .background-orb,
+body[data-theme="light"] .background-orb {
+    opacity: 0.12;
+}
+
+
+/* Imagens */
+
+.theme-photo {
+    transition: opacity 0.3s ease;
+}
+
+
+/* Transições */
+
+.site-header,
+.section,
+.site-footer,
+.skill-card,
+.project-card,
+.project-content,
+.contact-box,
+.contact-card,
+.service-item,
+.theme-button,
+.hero-social a,
+.hero-technologies span {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}

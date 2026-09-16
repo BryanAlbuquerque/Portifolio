@@ -1,94 +1,59 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
 
-    /* =====================================================
-       CURSOR GLOW
-    ===================================================== */
+    const themeButtons = document.querySelectorAll(".theme-button");
+    const themePhotos = document.querySelectorAll(".theme-photo");
 
-    const glow = document.querySelector(".cursor-glow");
+    function aplicarTema(theme) {
 
-    if (glow) {
+        document.documentElement.setAttribute("data-theme", theme);
+        document.body.setAttribute("data-theme", theme);
 
-        document.addEventListener("mousemove", function (event) {
-
-            glow.style.left = event.clientX + "px";
-            glow.style.top = event.clientY + "px";
-
-        });
-
-    }
-
-
-    /* =====================================================
-       TEMA
-    ===================================================== */
-
-    const themeButtons =
-        document.querySelectorAll(".theme-button");
-
-    const savedTheme =
-        localStorage.getItem("portfolio-theme");
-
-
-    function applyTheme(theme) {
-
-        if (theme === "light") {
-
-            document.body.classList.add("light-theme");
-
-        } else {
-
-            document.body.classList.remove("light-theme");
-
-        }
-
-
-        themeButtons.forEach(function (button) {
-
-            const buttonTheme =
-                button.dataset.theme;
+        themeButtons.forEach(button => {
 
             button.classList.toggle(
                 "active",
-                buttonTheme === theme
+                button.dataset.theme === theme
             );
 
         });
 
+        themePhotos.forEach(photo => {
 
-        localStorage.setItem(
-            "portfolio-theme",
-            theme
-        );
+            const darkSrc = photo.dataset.darkSrc;
+            const lightSrc = photo.dataset.lightSrc;
 
+            if (theme === "light") {
+
+                if (lightSrc) {
+                    photo.src = lightSrc;
+                }
+
+            } else {
+
+                if (darkSrc) {
+                    photo.src = darkSrc;
+                }
+
+            }
+
+        });
+
+        localStorage.setItem("portfolio-theme", theme);
     }
 
-
-    /* =====================================================
-       TEMA INICIAL
-    ===================================================== */
-
-    applyTheme(
-        savedTheme === "light"
-            ? "light"
-            : "dark"
-    );
-
-
-    /* =====================================================
-       BOTÕES
-    ===================================================== */
-
-    themeButtons.forEach(function (button) {
+    themeButtons.forEach(button => {
 
         button.addEventListener("click", function () {
 
-            const selectedTheme =
-                button.dataset.theme;
-
-            applyTheme(selectedTheme);
+            aplicarTema(this.dataset.theme);
 
         });
 
     });
+
+    const temaSalvo =
+        localStorage.getItem("portfolio-theme") || "dark";
+
+    aplicarTema(temaSalvo);
 
 });

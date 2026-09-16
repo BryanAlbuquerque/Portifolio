@@ -1,4 +1,5 @@
 ﻿@page
+
 @model IndexModel
 
 @{
@@ -6,25 +7,39 @@
 }
 
 <!-- Header -->
+
 <header id="inicio" class="site-header">
+
     <nav class="navbar navbar-expand-lg">
+
         <div class="container">
 
             <!-- Logo -->
-            <a href="#inicio" class="logo-link" aria-label="Voltar ao início">
+
+            <a href="#inicio"
+               class="logo-link"
+               aria-label="Voltar ao início">
+
                 <div class="logo-wrapper">
+
                     <img src="~/images/favicon.png"
                          alt="Bryan Albuquerque"
                          class="logo-img" />
+
                 </div>
 
                 <div class="logo-name">
+
                     <strong>Bryan</strong>
+
                     <span>Albuquerque</span>
+
                 </div>
+
             </a>
 
-            <!-- Mobile -->
+            <!-- Menu mobile -->
+
             <button class="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
@@ -32,36 +47,69 @@
                     aria-controls="menuPrincipal"
                     aria-expanded="false"
                     aria-label="Abrir menu">
+
                 <span class="navbar-toggler-icon"></span>
+
             </button>
 
             <!-- Menu -->
-            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+            <div class="collapse navbar-collapse"
+                 id="menuPrincipal">
 
                 <ul class="navbar-nav ms-auto menu-principal">
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Início</a>
+
+                        <a class="nav-link"
+                           href="#inicio">
+                            Início
+                        </a>
+
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+
+                        <a class="nav-link"
+                           href="#sobre">
+                            Sobre
+                        </a>
+
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Habilidades</a>
+
+                        <a class="nav-link"
+                           href="#skills">
+                            Habilidades
+                        </a>
+
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
+
+                        <a class="nav-link"
+                           href="#projetos">
+                            Projetos
+                        </a>
+
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+
+                        <a class="nav-link"
+                           href="#contato">
+                            Contato
+                        </a>
+
                     </li>
+
                 </ul>
 
-                <!-- Tema -->
-                <div class="theme-controls" aria-label="Controle de tema">
+                <!-- Controle de tema -->
+
+                <div class="theme-controls"
+                     aria-label="Controle de tema">
 
                     <button type="button"
                             class="theme-button"
@@ -69,7 +117,9 @@
                             aria-label="Usar tema original">
 
                         <i class="fa-solid fa-moon"></i>
+
                         <span>Original</span>
+
                     </button>
 
                     <button type="button"
@@ -78,32 +128,42 @@
                             aria-label="Usar tema claro">
 
                         <i class="fa-solid fa-sun"></i>
+
                         <span>Claro</span>
+
                     </button>
 
                 </div>
 
             </div>
+
         </div>
+
     </nav>
+
 </header>
 
 <!-- Hero -->
+
 <section class="hero-section">
 
     <div class="hero-particles">
+
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
+
     </div>
 
     <div class="container">
+
         <div class="hero-content">
 
             <!-- Texto -->
+
             <div class="hero-text">
 
                 <div class="hero-label">
@@ -111,68 +171,108 @@
                 </div>
 
                 <h1>
+
                     Transformando
-                    <span class="gradient-text">ideias</span>
+
+                    <span class="gradient-text">
+                        ideias
+                    </span>
+
                     em
-                    <span class="outline-text">soluções.</span>
+
+                    <span class="outline-text">
+                        soluções.
+                    </span>
+
                 </h1>
 
                 <p class="hero-description">
+
                     Olá, eu sou
-                    <strong>Bryan Albuquerque.</strong>
+
+                    <strong>
+                        Bryan Albuquerque.
+                    </strong>
+
                     Desenvolvedor focado na criação de aplicações web,
                     sistemas desktop, APIs e soluções sob medida
                     utilizando o ecossistema
-                    <strong>.NET.</strong>
+
+                    <strong>
+                        .NET.
+                    </strong>
+
                 </p>
 
                 <!-- Tecnologias -->
+
                 <div class="hero-technologies">
 
                     <span>
+
                         <i class="fa-solid fa-code"></i>
+
                         C#
+
                     </span>
 
                     <span>
+
                         <i class="fa-solid fa-globe"></i>
+
                         ASP.NET Core
+
                     </span>
 
                     <span>
+
                         <i class="fa-solid fa-database"></i>
+
                         SQL Server
+
                     </span>
 
                     <span>
+
                         <i class="fa-solid fa-bolt"></i>
+
                         REST API
+
                     </span>
 
                 </div>
 
-                <!-- Social -->
+                <!-- Redes sociais -->
+
                 <div class="hero-social">
 
-                    <span>Encontre-me</span>
+                    <span>
+                        Encontre-me
+                    </span>
 
                     <a href="https://github.com/BryanAlbuquerque"
                        target="_blank"
                        rel="noopener noreferrer"
                        aria-label="GitHub">
+
                         <i class="fa-brands fa-github"></i>
+
                     </a>
 
                     <a href="mailto:bryanalburquerque2@gmail.com"
                        aria-label="E-mail">
+
                         <i class="fa-solid fa-envelope"></i>
+
                     </a>
 
                     <a href="https://wa.me/5511974217641"
                        target="_blank"
                        rel="noopener noreferrer"
                        aria-label="WhatsApp">
+
                         <i class="fa-brands fa-whatsapp"></i>
+
                     </a>
 
                 </div>
@@ -180,16 +280,18 @@
             </div>
 
             <!-- Foto -->
+
             <div class="hero-visual">
 
                 <div class="hero-image-decoration decoration-one"></div>
+
                 <div class="hero-image-decoration decoration-two"></div>
 
                 <div class="hero-photo-container">
 
                     <div class="hero-photo-glow"></div>
 
-                    <img src="~/images/Bryan.png"
+                    <img src="~/images/perfil-dark.png"
                          data-dark-src="@Url.Content("~/images/perfil-dark.png")"
                          data-light-src="@Url.Content("~/images/perfil-light.png")"
                          alt="Bryan Albuquerque"
@@ -197,16 +299,26 @@
 
                 </div>
 
-                <!-- Badge -->
+                <!-- Card -->
+
                 <div class="floating-card floating-card-one">
 
                     <div class="floating-icon">
+
                         <i class="fa-solid fa-code"></i>
+
                     </div>
 
                     <div>
-                        <strong>Clean Code</strong>
-                        <span>Código organizado</span>
+
+                        <strong>
+                            Clean Code
+                        </strong>
+
+                        <span>
+                            Código organizado
+                        </span>
+
                     </div>
 
                 </div>
@@ -214,12 +326,21 @@
                 <div class="floating-card floating-card-two">
 
                     <div class="floating-icon">
+
                         <i class="fa-solid fa-layer-group"></i>
+
                     </div>
 
                     <div>
-                        <strong>.NET Developer</strong>
-                        <span>Backend & Web</span>
+
+                        <strong>
+                            .NET Developer
+                        </strong>
+
+                        <span>
+                            Backend & Web
+                        </span>
+
                     </div>
 
                 </div>
@@ -227,32 +348,47 @@
             </div>
 
         </div>
+
     </div>
 
     <!-- Scroll -->
-    <a href="#sobre" class="scroll-indicator">
-        <span>Role a tela</span>
+
+    <a href="#sobre"
+       class="scroll-indicator">
+
+        <span>
+            Role a tela
+        </span>
+
         <i class="fa-solid fa-arrow-down"></i>
+
     </a>
 
 </section>
 
 <!-- Sobre -->
-<section id="sobre" class="section section-about">
+
+<section id="sobre"
+         class="section section-about">
 
     <div class="container">
 
         <div class="section-header">
+
             <div>
+
                 <span class="section-label">
                     SOBRE MIM
                 </span>
+
             </div>
+
         </div>
 
         <div class="about-content">
 
             <!-- Foto -->
+
             <div class="about-image-area">
 
                 <div class="about-image-frame">
@@ -264,11 +400,18 @@
                          src="~/images/perfil-dark.png"
                          data-dark-src="@Url.Content("~/images/perfil-dark.png")"
                          data-light-src="@Url.Content("~/images/perfil-light.png")"
-                         alt="Foto do perfil">
+                         alt="Foto do perfil" />
 
                     <div class="experience-badge">
-                        <strong>.NET</strong>
-                        <span>Developer</span>
+
+                        <strong>
+                            .NET
+                        </strong>
+
+                        <span>
+                            Developer
+                        </span>
+
                     </div>
 
                 </div>
@@ -276,33 +419,48 @@
             </div>
 
             <!-- Texto -->
+
             <div class="about-text">
 
                 <div class="about-intro">
-                    <span>Quem sou eu?</span>
+
+                    <span>
+                        Quem sou eu?
+                    </span>
+
                 </div>
 
                 <p>
+
                     Sou formado em
-                    <strong>Análise e Desenvolvimento de Sistemas</strong>
+
+                    <strong>
+                        Análise e Desenvolvimento de Sistemas
+                    </strong>
+
                     pela Universidade Paulista (UNIP), com foco no
                     desenvolvimento de aplicações utilizando C# e o
                     ecossistema .NET.
+
                 </p>
 
                 <p>
+
                     Tenho experiência prática no desenvolvimento de
                     sistemas desktop e aplicações web, atuando desde
                     a estruturação da aplicação e implementação da
                     lógica de negócio até integração com banco de
                     dados e APIs.
+
                 </p>
 
                 <p>
+
                     Meu objetivo é construir software que seja
                     organizado, escalável, intuitivo e fácil de
                     manter — sempre buscando transformar problemas
                     reais em soluções eficientes.
+
                 </p>
 
                 <div class="about-services">
@@ -314,50 +472,87 @@
                     <div class="services-grid">
 
                         <div class="service-item">
-                            <span>01</span>
+
+                            <span>
+                                01
+                            </span>
 
                             <div>
-                                <strong>Sistemas Web</strong>
+
+                                <strong>
+                                    Sistemas Web
+                                </strong>
+
                                 <p>
                                     Aplicações modernas e responsivas.
                                 </p>
+
                             </div>
+
                         </div>
 
                         <div class="service-item">
-                            <span>02</span>
+
+                            <span>
+                                02
+                            </span>
 
                             <div>
-                                <strong>APIs</strong>
+
+                                <strong>
+                                    APIs
+                                </strong>
+
                                 <p>
                                     Integrações entre sistemas e serviços.
                                 </p>
+
                             </div>
+
                         </div>
 
                         <div class="service-item">
-                            <span>03</span>
+
+                            <span>
+                                03
+                            </span>
 
                             <div>
-                                <strong>Sistemas Desktop</strong>
+
+                                <strong>
+                                    Sistemas Desktop
+                                </strong>
+
                                 <p>
                                     Aplicações personalizadas para empresas.
                                 </p>
+
                             </div>
+
                         </div>
 
                         <div class="service-item">
-                            <span>04</span>
+
+                            <span>
+                                04
+                            </span>
 
                             <div>
-                                <strong>Banco de Dados</strong>
+
+                                <strong>
+                                    Banco de Dados
+                                </strong>
+
                                 <p>
                                     Estruturação e gerenciamento de dados.
                                 </p>
+
                             </div>
+
                         </div>
 
                     </div>
+
                 </div>
 
             </div>
@@ -369,21 +564,27 @@
 </section>
 
 <!-- Habilidades -->
-<section id="skills" class="section skills-section">
+
+<section id="skills"
+         class="section skills-section">
 
     <div class="container">
 
         <div class="section-header">
 
             <div>
+
                 <span class="section-label">
                     TECNOLOGIAS
                 </span>
 
                 <p class="section-description">
+
                     Tecnologias utilizadas na construção dos meus
                     projetos e soluções.
+
                 </p>
+
             </div>
 
         </div>
@@ -391,128 +592,226 @@
         <div class="skills-grid">
 
             <!-- C# -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/csharp.png" alt="C#" />
+
+                    <img src="~/images/csharp.png"
+                         alt="C#" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>C#</h3>
-                    <p>Aplicações e lógica de negócio.</p>
+
+                    <h3>
+                        C#
+                    </h3>
+
+                    <p>
+                        Aplicações e lógica de negócio.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- SQL Server -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/sql.png" alt="SQL Server" />
+
+                    <img src="~/images/sql.png"
+                         alt="SQL Server" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>SQL Server</h3>
-                    <p>Modelagem e gerenciamento de dados.</p>
+
+                    <h3>
+                        SQL Server
+                    </h3>
+
+                    <p>
+                        Modelagem e gerenciamento de dados.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- MySQL -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/mySql.png" alt="MySQL" />
+
+                    <img src="~/images/mySql.png"
+                         alt="MySQL" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>MySQL</h3>
-                    <p>Bancos relacionais e consultas.</p>
+
+                    <h3>
+                        MySQL
+                    </h3>
+
+                    <p>
+                        Bancos relacionais e consultas.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- ASP.NET Core -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/asp.net.png" alt="ASP.NET Core" />
+
+                    <img src="~/images/asp.net.png"
+                         alt="ASP.NET Core" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>ASP.NET Core</h3>
-                    <p>Aplicações web modernas.</p>
+
+                    <h3>
+                        ASP.NET Core
+                    </h3>
+
+                    <p>
+                        Aplicações web modernas.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- REST API -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/api.png" alt="REST API" />
+
+                    <img src="~/images/api.png"
+                         alt="REST API" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>REST API</h3>
-                    <p>Integração entre aplicações.</p>
+
+                    <h3>
+                        REST API
+                    </h3>
+
+                    <p>
+                        Integração entre aplicações.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- HTML -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/html.png" alt="HTML" />
+
+                    <img src="~/images/html.png"
+                         alt="HTML" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>HTML</h3>
-                    <p>Estruturação de interfaces web.</p>
+
+                    <h3>
+                        HTML
+                    </h3>
+
+                    <p>
+                        Estruturação de interfaces web.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- CSS -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/css.png" alt="CSS" />
+
+                    <img src="~/images/css.png"
+                         alt="CSS" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>CSS</h3>
-                    <p>Interfaces modernas e responsivas.</p>
+
+                    <h3>
+                        CSS
+                    </h3>
+
+                    <p>
+                        Interfaces modernas e responsivas.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- JavaScript -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
-                    <img src="~/images/javascript.png" alt="JavaScript" />
+
+                    <img src="~/images/javascript.png"
+                         alt="JavaScript" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>JavaScript</h3>
-                    <p>Interatividade e funcionalidades web.</p>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <p>
+                        Interatividade e funcionalidades web.
+                    </p>
+
                 </div>
 
             </div>
 
             <!-- Entity Framework -->
+
             <div class="skill-card">
 
                 <div class="skill-icon">
+
                     <img src="~/images/entityframework.png"
                          alt="Entity Framework" />
+
                 </div>
 
                 <div class="skill-info">
-                    <h3>Entity Framework</h3>
-                    <p>Acesso e mapeamento de dados com .NET.</p>
+
+                    <h3>
+                        Entity Framework
+                    </h3>
+
+                    <p>
+                        Acesso e mapeamento de dados com .NET.
+                    </p>
+
                 </div>
 
             </div>
@@ -524,7 +823,9 @@
 </section>
 
 <!-- Projetos -->
-<section id="projetos" class="section projects-section">
+
+<section id="projetos"
+         class="section projects-section">
 
     <div class="container">
 
@@ -537,10 +838,13 @@
                 </span>
 
                 <h2 class="titulo-secao">
+
                     Projetos que
+
                     <span class="gradient-text">
                         saíram do papel.
                     </span>
+
                 </h2>
 
             </div>
@@ -550,6 +854,7 @@
         <div class="projects-grid">
 
             <!-- PortalGamerX -->
+
             <article class="project-card">
 
                 <div class="project-image">
@@ -560,7 +865,9 @@
 
                     <div class="project-overlay">
 
-                        <span>E-COMMERCE</span>
+                        <span>
+                            E-COMMERCE
+                        </span>
 
                         <a href="https://github.com/BryanAlbuquerque/PortalGamerX"
                            target="_blank"
@@ -578,9 +885,11 @@
                 <div class="project-content">
 
                     <div class="project-top">
+
                         <span class="project-category">
                             E-COMMERCE
                         </span>
+
                     </div>
 
                     <h3>
@@ -588,16 +897,20 @@
                     </h3>
 
                     <p>
+
                         E-commerce desenvolvido para venda de jogos
                         e produtos do segmento geek.
+
                     </p>
 
                     <div class="project-technologies">
+
                         <span>C#</span>
                         <span>ASP.NET</span>
                         <span>SQL Server</span>
                         <span>Entity Framework</span>
                         <span>MVC</span>
+
                     </div>
 
                     <a href="https://github.com/BryanAlbuquerque/PortalGamerX"
@@ -606,6 +919,7 @@
                        class="project-link">
 
                         Ver no GitHub
+
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
@@ -615,6 +929,7 @@
             </article>
 
             <!-- Storage Control -->
+
             <article class="project-card">
 
                 <div class="project-image">
@@ -625,7 +940,9 @@
 
                     <div class="project-overlay">
 
-                        <span>DESKTOP</span>
+                        <span>
+                            DESKTOP
+                        </span>
 
                         <a href="https://github.com/BryanAlbuquerque/StorageControl"
                            target="_blank"
@@ -643,9 +960,11 @@
                 <div class="project-content">
 
                     <div class="project-top">
+
                         <span class="project-category">
                             DESKTOP
                         </span>
+
                     </div>
 
                     <h3>
@@ -653,14 +972,18 @@
                     </h3>
 
                     <p>
+
                         Sistema desktop desenvolvido para controle,
                         organização e gerenciamento de estoque.
+
                     </p>
 
                     <div class="project-technologies">
+
                         <span>C#</span>
                         <span>Windows Forms</span>
                         <span>SQL Server</span>
+
                     </div>
 
                     <a href="https://github.com/BryanAlbuquerque/StorageControl"
@@ -669,6 +992,7 @@
                        class="project-link">
 
                         Ver no GitHub
+
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
@@ -678,6 +1002,7 @@
             </article>
 
             <!-- Shadow & Lines -->
+
             <article class="project-card">
 
                 <div class="project-image">
@@ -688,7 +1013,9 @@
 
                     <div class="project-overlay">
 
-                        <span>GESTÃO</span>
+                        <span>
+                            GESTÃO
+                        </span>
 
                         <a href="https://github.com/BryanAlbuquerque/Shadows-Lines"
                            target="_blank"
@@ -706,9 +1033,11 @@
                 <div class="project-content">
 
                     <div class="project-top">
+
                         <span class="project-category">
                             GESTÃO
                         </span>
+
                     </div>
 
                     <h3>
@@ -716,16 +1045,20 @@
                     </h3>
 
                     <p>
+
                         Sistema para gerenciamento de clientes,
                         funcionários e agendamentos de um studio
                         de tatuagem.
+
                     </p>
 
                     <div class="project-technologies">
+
                         <span>C#</span>
                         <span>Windows Forms</span>
                         <span>SQL Server</span>
                         <span>Web API</span>
+
                     </div>
 
                     <a href="https://github.com/BryanAlbuquerque/Shadows-Lines"
@@ -734,6 +1067,7 @@
                        class="project-link">
 
                         Ver no GitHub
+
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
@@ -743,6 +1077,7 @@
             </article>
 
             <!-- Xadrez -->
+
             <article class="project-card">
 
                 <div class="project-image">
@@ -753,7 +1088,9 @@
 
                     <div class="project-overlay">
 
-                        <span>DESKTOP</span>
+                        <span>
+                            DESKTOP
+                        </span>
 
                         <a href="https://github.com/BryanAlbuquerque/Xadrez"
                            target="_blank"
@@ -771,9 +1108,11 @@
                 <div class="project-content">
 
                     <div class="project-top">
+
                         <span class="project-category">
                             DESKTOP
                         </span>
+
                     </div>
 
                     <h3>
@@ -781,15 +1120,19 @@
                     </h3>
 
                     <p>
+
                         Jogo de xadrez desenvolvido em C# e
                         Windows Forms, com implementação das regras,
                         movimentação das peças e interface gráfica
                         interativa.
+
                     </p>
 
                     <div class="project-technologies">
+
                         <span>C#</span>
                         <span>Windows Forms</span>
+
                     </div>
 
                     <a href="https://github.com/BryanAlbuquerque/Xadrez"
@@ -798,6 +1141,7 @@
                        class="project-link">
 
                         Ver no GitHub
+
                         <i class="fa-solid fa-arrow-right"></i>
 
                     </a>
@@ -809,6 +1153,7 @@
         </div>
 
         <!-- Mais projetos -->
+
         <div class="projects-more">
 
             <p>
@@ -835,7 +1180,9 @@
 </section>
 
 <!-- Contato -->
-<section id="contato" class="section contact-section">
+
+<section id="contato"
+         class="section contact-section">
 
     <div class="container">
 
@@ -848,19 +1195,24 @@
                 </span>
 
                 <h2>
+
                     Vamos criar algo
+
                     <span class="gradient-text">
                         incrível?
                     </span>
+
                 </h2>
 
                 <p>
+
                     Estou disponível para oportunidades profissionais,
                     projetos de desenvolvimento e trabalhos sob demanda.
 
                     <strong>
                         Se você tem uma ideia, vamos conversar.
                     </strong>
+
                 </p>
 
                 <a href="~/Files/currBryan.pdf"
@@ -878,19 +1230,26 @@
             <div class="contact-links">
 
                 <!-- E-mail -->
+
                 <a href="mailto:bryanalburquerque2@gmail.com"
                    class="contact-card">
 
                     <div class="contact-card-icon">
+
                         <i class="fa-solid fa-envelope"></i>
+
                     </div>
 
                     <div class="contact-card-content">
-                        <span>E-mail</span>
+
+                        <span>
+                            E-mail
+                        </span>
 
                         <strong>
                             bryanalburquerque2@gmail.com
                         </strong>
+
                     </div>
 
                     <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
@@ -898,6 +1257,7 @@
                 </a>
 
                 <!-- WhatsApp -->
+
                 <a href="https://wa.me/5511974217641"
                    target="_blank"
                    rel="noopener noreferrer"
@@ -911,11 +1271,15 @@
                     </div>
 
                     <div class="contact-card-content">
-                        <span>WhatsApp</span>
+
+                        <span>
+                            WhatsApp
+                        </span>
 
                         <strong>
                             +55 (11) 97421-7641
                         </strong>
+
                     </div>
 
                     <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
@@ -923,21 +1287,28 @@
                 </a>
 
                 <!-- GitHub -->
+
                 <a href="https://github.com/BryanAlbuquerque"
                    target="_blank"
                    rel="noopener noreferrer"
                    class="contact-card">
 
                     <div class="contact-card-icon">
+
                         <i class="fa-brands fa-github"></i>
+
                     </div>
 
                     <div class="contact-card-content">
-                        <span>GitHub</span>
+
+                        <span>
+                            GitHub
+                        </span>
 
                         <strong>
                             BryanAlbuquerque
                         </strong>
+
                     </div>
 
                     <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
@@ -953,6 +1324,7 @@
 </section>
 
 <!-- Footer -->
+
 <footer class="site-footer">
 
     <div class="container">
@@ -960,9 +1332,11 @@
         <div class="footer-main">
 
             <!-- Marca -->
+
             <div class="footer-brand">
 
-                <a href="#inicio" class="footer-logo">
+                <a href="#inicio"
+                   class="footer-logo">
 
                     <img src="~/images/favicon.png"
                          alt="Bryan Albuquerque" />
@@ -974,36 +1348,59 @@
                 </a>
 
                 <p>
+
                     Desenvolvedor .NET focado na criação de
                     aplicações, APIs e soluções tecnológicas
                     que transformam ideias em produtos reais.
+
                 </p>
 
             </div>
 
             <!-- Navegação -->
+
             <div class="footer-navigation">
 
-                <h3>Navegação</h3>
+                <h3>
+                    Navegação
+                </h3>
 
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#skills">Habilidades</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#contato">Contato</a>
+                <a href="#inicio">
+                    Início
+                </a>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+                <a href="#skills">
+                    Habilidades
+                </a>
+
+                <a href="#projetos">
+                    Projetos
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
 
             </div>
 
-            <!-- Social -->
+            <!-- Redes sociais -->
+
             <div class="footer-social">
 
-                <h3>Conecte-se</h3>
+                <h3>
+                    Conecte-se
+                </h3>
 
                 <a href="https://github.com/BryanAlbuquerque"
                    target="_blank"
                    rel="noopener noreferrer">
 
                     <i class="fa-brands fa-github"></i>
+
                     GitHub
 
                 </a>
@@ -1011,6 +1408,7 @@
                 <a href="mailto:bryanalburquerque2@gmail.com">
 
                     <i class="fa-solid fa-envelope"></i>
+
                     E-mail
 
                 </a>
@@ -1020,6 +1418,7 @@
                    rel="noopener noreferrer">
 
                     <i class="fa-brands fa-whatsapp"></i>
+
                     WhatsApp
 
                 </a>
@@ -1031,13 +1430,17 @@
         <div class="footer-bottom">
 
             <span>
+
                 © @DateTime.Now.Year
                 Bryan Albuquerque
+
             </span>
 
             <span>
+
                 Desenvolvido com
                 <strong>ASP.NET Core</strong>
+
             </span>
 
         </div>
@@ -1045,70 +1448,3 @@
     </div>
 
 </footer>
-
-<!-- Controle de tema -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-
-        const themeButtons = document.querySelectorAll(".theme-button");
-        const themePhotos = document.querySelectorAll(".theme-photo");
-
-        function aplicarTema(theme) {
-
-            document.documentElement.setAttribute("data-theme", theme);
-            document.body.setAttribute("data-theme", theme);
-
-            themeButtons.forEach(button => {
-
-                const buttonTheme = button.dataset.theme;
-
-                button.classList.toggle(
-                    "active",
-                    buttonTheme === theme
-                );
-
-            });
-
-            themePhotos.forEach(photo => {
-
-                const darkSrc = photo.dataset.darkSrc;
-                const lightSrc = photo.dataset.lightSrc;
-
-                if (theme === "light") {
-
-                    if (lightSrc) {
-                        photo.src = lightSrc;
-                    }
-
-                } else {
-
-                    if (darkSrc) {
-                        photo.src = darkSrc;
-                    }
-
-                }
-
-            });
-
-            localStorage.setItem("portfolio-theme", theme);
-        }
-
-        themeButtons.forEach(button => {
-
-            button.addEventListener("click", function () {
-
-                const theme = this.dataset.theme;
-
-                aplicarTema(theme);
-
-            });
-
-        });
-
-        const temaSalvo =
-            localStorage.getItem("portfolio-theme") || "dark";
-
-        aplicarTema(temaSalvo);
-
-    });
-</script>
