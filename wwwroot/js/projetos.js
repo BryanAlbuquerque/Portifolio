@@ -21,6 +21,7 @@
                 "~/images/projects/StudioPodologia-01.png",
                 "~/images/projects/StudioPodologia-02.png",
                 "~/images/projects/StudioPodologia-03.png"
+                "~/images/projects/StudioPodologia-04.png"
             ]
         },
 
@@ -28,6 +29,7 @@
             title: "Pimenta Selvagem",
             images: [
                 "~/images/projects/PimentaSelvagem.png",
+                "~/images/projects/PimentaSelvagem-01.png",
                 "~/images/projects/PimentaSelvagem-02.png",
                 "~/images/projects/PimentaSelvagem-03.png",
                 "~/images/projects/PimentaSelvagem-04.png",
