@@ -1,4 +1,6 @@
-﻿document.addEventListener("DOMContentLoaded", () => {
+﻿
+document.addEventListener("DOMContentLoaded", () => {
+    "use strict";
 
     const modal = document.getElementById("projectGalleryModal");
     const mainImage = document.getElementById("projectGalleryMainImage");
@@ -6,129 +8,96 @@
     const thumbnails = document.getElementById("projectGalleryThumbnails");
 
     if (!modal || !mainImage || !title || !thumbnails) {
+        console.error("Galeria: elementos obrigatórios do modal não encontrados.");
         return;
     }
 
-
-    /* Galerias */
-
+    // Use caminhos absolutos a partir da raiz da aplicação.
+    // Se o site estiver em um subcaminho, configure os caminhos via Razor.
     const galleries = {
-
         studiopodologia: {
-            title: "Studio Podologia",
+            title: "Studio de Podologia",
             images: [
-                "~/images/projects/StudioPodologia.png",
-                "~/images/projects/StudioPodologia-01.png",
-                "~/images/projects/StudioPodologia-02.png",
-                "~/images/projects/StudioPodologia-03.png"
-                "~/images/projects/StudioPodologia-04.png"
+                "/images/projects/StudioPodologia.png",
+                "/images/projects/StudioPodologia-01.png",
+                "/images/projects/StudioPodologia-02.png",
+                "/images/projects/StudioPodologia-03.png",
+                "/images/projects/StudioPodologia-04.png"
             ]
         },
 
         pimentaselvagem: {
             title: "Pimenta Selvagem",
             images: [
-                "~/images/projects/PimentaSelvagem.png",
-                "~/images/projects/PimentaSelvagem-01.png",
-                "~/images/projects/PimentaSelvagem-02.png",
-                "~/images/projects/PimentaSelvagem-03.png",
-                "~/images/projects/PimentaSelvagem-04.png",
-                "~/images/projects/PimentaSelvagem-05.png",
+                "/images/projects/PimentaSelvagem.png",
+                "/images/projects/PimentaSelvagem-01.png",
+                "/images/projects/PimentaSelvagem-02.png",
+                "/images/projects/PimentaSelvagem-03.png",
+                "/images/projects/PimentaSelvagem-04.png",
+                "/images/projects/PimentaSelvagem-05.png"
             ]
         }
     };
-
-
-    /* Converte ~/ para / */
-
-    const resolveUrl = (path) => {
-        return path.replace(/^~\//, "/");
-    };
-
 
     let currentGallery = null;
     let currentIndex = 0;
     let lastFocusedElement = null;
 
+    const galleryIsOpen = () => modal.classList.contains("is-open");
 
-    /* Mostra uma imagem */
-
-    const renderImage = (index) => {
-
-        if (!currentGallery || !currentGallery.images.length) {
+    function renderImage(index) {
+        if (!currentGallery || currentGallery.images.length === 0) {
             return;
         }
 
         const total = currentGallery.images.length;
+        currentIndex = ((index % total) + total) % total;
 
-        currentIndex = (index + total) % total;
-
-        const imagePath = resolveUrl(
-            currentGallery.images[currentIndex]
-        );
+        const imagePath = currentGallery.images[currentIndex];
 
         mainImage.src = imagePath;
-
         mainImage.alt =
-            `${currentGallery.title} - imagem ${currentIndex + 1}`;
+            `${currentGallery.title} - imagem ${currentIndex + 1} de ${total}`;
 
+        [...thumbnails.children].forEach((button, thumbnailIndex) => {
+            const isActive = thumbnailIndex === currentIndex;
 
-        [...thumbnails.children].forEach(
-            (thumbnail, thumbnailIndex) => {
+            button.classList.toggle("is-active", isActive);
+            button.setAttribute("aria-current", isActive ? "true" : "false");
+        });
+    }
 
-                thumbnail.classList.toggle(
-                    "is-active",
-                    thumbnailIndex === currentIndex
-                );
-            }
-        );
-    };
-
-
-    /* Abre a galeria */
-
-    const openGallery = (galleryKey) => {
-
+    function openGallery(galleryKey) {
         const gallery = galleries[galleryKey];
 
-        if (!gallery || !gallery.images.length) {
+        if (!gallery || gallery.images.length === 0) {
+            console.error(`Galeria não encontrada: ${galleryKey}`);
             return;
         }
 
+        lastFocusedElement = document.activeElement;
         currentGallery = gallery;
         currentIndex = 0;
 
-        lastFocusedElement = document.activeElement;
-
         title.textContent = gallery.title;
+        thumbnails.replaceChildren();
 
-        thumbnails.innerHTML = "";
-
-
-        gallery.images.forEach((image, index) => {
-
+        gallery.images.forEach((imagePath, index) => {
             const button = document.createElement("button");
-
             button.type = "button";
             button.className = "project-gallery-thumbnail";
-
             button.setAttribute(
                 "aria-label",
-                `Abrir imagem ${index + 1}`
+                `Visualizar imagem ${index + 1} de ${gallery.images.length}`
             );
 
+            const image = document.createElement("img");
+            image.src = imagePath;
+            image.alt = "";
+            image.loading = "lazy";
+            image.decoding = "async";
 
-            const img = document.createElement("img");
-
-            img.src = resolveUrl(image);
-
-            img.alt =
-                `${gallery.title} - miniatura ${index + 1}`;
-
-            img.loading = "lazy";
-
-
-            button.appendChild(img);
+            button.appendChild(image);
 
             button.addEventListener("click", () => {
                 renderImage(index);
@@ -137,167 +106,98 @@
             thumbnails.appendChild(button);
         });
 
-
         renderImage(0);
 
-
         modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        document.body.classList.add("gallery-is-open");
 
-        modal.setAttribute(
-            "aria-hidden",
-            "false"
-        );
+        modal.querySelector(".project-gallery-close")?.focus();
+    }
 
-        document.body.classList.add(
-            "gallery-is-open"
-        );
-
-
-        modal
-            .querySelector(".project-gallery-close")
-            ?.focus();
-    };
-
-
-    /* Fecha a galeria */
-
-    const closeGallery = () => {
+    function closeGallery() {
+        if (!galleryIsOpen()) {
+            return;
+        }
 
         modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("gallery-is-open");
 
-        modal.setAttribute(
-            "aria-hidden",
-            "true"
-        );
-
-        document.body.classList.remove(
-            "gallery-is-open"
-        );
-
-
-        mainImage.src = "";
-
-        thumbnails.innerHTML = "";
-
-
-        if (lastFocusedElement) {
-            lastFocusedElement.focus();
-        }
+        mainImage.removeAttribute("src");
+        mainImage.alt = "";
+        thumbnails.replaceChildren();
 
         currentGallery = null;
         currentIndex = 0;
-    };
 
+        if (lastFocusedElement instanceof HTMLElement) {
+            lastFocusedElement.focus();
+        }
 
-    /* Abre ao clicar em qualquer elemento da galeria */
+        lastFocusedElement = null;
+    }
 
-    document
-        .querySelectorAll("[data-gallery]")
-        .forEach((element) => {
+    // Delegação de eventos: também funciona com elementos
+    // adicionados posteriormente ao HTML.
+    document.addEventListener("click", (event) => {
+        const target = event.target;
 
-            element.addEventListener(
-                "click",
-                (event) => {
+        if (!(target instanceof Element)) {
+            return;
+        }
 
-                    event.preventDefault();
+        const galleryTrigger = target.closest("[data-gallery]");
 
-                    event.stopPropagation();
+        if (galleryTrigger) {
+            const galleryKey = galleryTrigger.dataset.gallery;
 
-                    const galleryKey =
-                        element.dataset.gallery;
-
-                    openGallery(galleryKey);
-                }
-            );
-        });
-
-
-    /* Fechar */
-
-    document
-        .querySelectorAll("[data-gallery-close]")
-        .forEach((element) => {
-
-            element.addEventListener(
-                "click",
-                closeGallery
-            );
-        });
-
-
-    /* Voltar */
-
-    document
-        .querySelector("[data-gallery-prev]")
-        ?.addEventListener(
-            "click",
-            () => {
-
-                if (!currentGallery) {
-                    return;
-                }
-
-                renderImage(
-                    currentIndex - 1
-                );
-            }
-        );
-
-
-    /* Avançar */
-
-    document
-        .querySelector("[data-gallery-next]")
-        ?.addEventListener(
-            "click",
-            () => {
-
-                if (!currentGallery) {
-                    return;
-                }
-
-                renderImage(
-                    currentIndex + 1
-                );
-            }
-        );
-
-
-    /* Teclado */
-
-    document.addEventListener(
-        "keydown",
-        (event) => {
-
-            if (!modal.classList.contains("is-open")) {
-                return;
+            if (galleries[galleryKey]) {
+                event.preventDefault();
+                openGallery(galleryKey);
             }
 
+            return;
+        }
 
-            if (event.key === "Escape") {
+        if (target.closest("[data-gallery-close]")) {
+            closeGallery();
+            return;
+        }
 
-                closeGallery();
-
-                return;
+        if (target.closest("[data-gallery-prev]")) {
+            if (currentGallery) {
+                renderImage(currentIndex - 1);
             }
 
+            return;
+        }
 
-            if (event.key === "ArrowLeft") {
-
-                renderImage(
-                    currentIndex - 1
-                );
-
-                return;
-            }
-
-
-            if (event.key === "ArrowRight") {
-
-                renderImage(
-                    currentIndex + 1
-                );
+        if (target.closest("[data-gallery-next]")) {
+            if (currentGallery) {
+                renderImage(currentIndex + 1);
             }
         }
-    );
+    });
+
+    // Navegação por teclado.
+    document.addEventListener("keydown", (event) => {
+        if (!galleryIsOpen() || !currentGallery) {
+            return;
+        }
+
+        if (event.key === "Escape") {
+            event.preventDefault();
+            closeGallery();
+        } else if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            renderImage(currentIndex - 1);
+        } else if (event.key === "ArrowRight") {
+            event.preventDefault();
+            renderImage(currentIndex + 1);
+        }
+    });
+
+    // Evita que a página role enquanto a galeria estiver aberta.
+    // O CSS deve definir o comportamento visual de .gallery-is-open.
 });
